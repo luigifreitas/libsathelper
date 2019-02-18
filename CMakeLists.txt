@@ -49,8 +49,6 @@ message( STATUS "Architecture: ${ARCHITECTURE}" )
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -fPIC -O3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fPIC -O3")
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -funsafe-math-optimizations -mfloat-abi=hard -mfpu=neon -ftree-vectorize -I/usr/include/arm-linux-gnueabihf/c++/5/ -I/usr/include/arm-linux-gnueabihf/")
-
 # Includes
 include_directories ("${PROJECT_SOURCE_DIR}/includes")
 include_directories ("${PROJECT_SOURCE_DIR}/includes/SatHelper")
