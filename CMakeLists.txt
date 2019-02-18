@@ -49,24 +49,7 @@ message( STATUS "Architecture: ${ARCHITECTURE}" )
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -fPIC -O3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fPIC -O3")
 
-if(${ARCHITECTURE} STREQUAL "aarch64")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -funsafe-math-optimizations -mtune=cortex-a53 -ftree-vectorize")
-endif()
-
-if(${ARCHITECTURE} STREQUAL "armv7l")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -funsafe-math-optimizations -mfloat-abi=hard -mfpu=neon -ftree-vectorize -I/usr/include/arm-linux-gnueabihf/c++/5/ -I/usr/include/arm-linux-gnueabihf/")
-endif()
-
-if(${ARCHITECTURE} STREQUAL "i686")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m32")
-endif()
-
-if(${ARCHITECTURE} STREQUAL "x86" OR ${ARCHITECTURE} STREQUAL "x86_64" OR ${ARCHITECTURE} STREQUAL "i686")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -msse -msse3 -mstackrealign")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -msse -msse3 -mstackrealign")
-endif()
-
 
 # Includes
 include_directories ("${PROJECT_SOURCE_DIR}/includes")
