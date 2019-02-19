@@ -87,12 +87,11 @@ SET_TARGET_PROPERTIES(${PROJECT_NAME}_s PROPERTIES OUTPUT_NAME ${PROJECT_NAME} C
 SET_TARGET_PROPERTIES(${PROJECT_NAME}   PROPERTIES OUTPUT_NAME ${PROJECT_NAME} CLEAN_DIRECT_OUTPUT 1)
 
 # Links
-#target_link_libraries (${PROJECT_NAME} correct.a)
-#if(WIN32)
-  target_link_libraries(${PROJECT_NAME} ws2_32.lib)  
-  #target_link_libraries(${PROJECT_NAME} wsock32 ws2_32)  
-  #set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -static")
-#endif()
+target_link_libraries (${PROJECT_NAME} correct.a)
+if(WIN32)
+  target_link_libraries(${PROJECT_NAME}_s wsock32 ws2_32)  
+  set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -static")
+endif()
 
 # Install library
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
