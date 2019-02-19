@@ -88,8 +88,6 @@ SET_TARGET_PROPERTIES(${PROJECT_NAME}   PROPERTIES OUTPUT_NAME ${PROJECT_NAME} C
 
 # Links
 target_link_libraries (${PROJECT_NAME} correct.a)
-target_link_libraries(${PROJECT_NAME} libwsock32.a)
-
 if(WIN32)
   target_link_libraries(${PROJECT_NAME} wsock32 ws2_32)  
   set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -static")
