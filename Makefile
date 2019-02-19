@@ -38,22 +38,6 @@ libSatHelperGo: bootstrapgo libSatHelper
 	@echo -e '\033[0;32mFinished building target: $@\033[0m'
 	@echo ' '
 
-test: libSatHelper
-	@echo -e '\033[0;32mBuilding target: $@\033[0m'
-	@echo -e '\033[0;34m'
-	$(MAKE) -C build test
-	@echo -e '\033[0m'
-	@echo -e '\033[0;32mFinished building target: $@\033[0m'
-	@echo ' '
-
-testGo: libSatHelperGo
-	@echo -e '\033[0;32mBuilding target: $@\033[0m'
-	@echo -e '\033[0;34m'
-	go test ./...
-	@echo -e '\033[0m'
-	@echo -e '\033[0;32mFinished building target: $@\033[0m'
-	@echo ' '
-
 libcorrect: FORCE
 	@echo -e '\033[0;32mBuilding target: $@\033[0m'
 	@echo -e '\033[0;34m'
