@@ -39,7 +39,7 @@ if(NOT WIN32 AND NOT DEFINED ARCHITECTURE)
 EXECUTE_PROCESS( COMMAND uname -m COMMAND tr -d '\n' OUTPUT_VARIABLE ARCHITECTURE )
 endif()
 
-message( STATUS "Architecture: ${ARCHITECTURE}" )
+message( STATUS "Architecture: ${ARCHITECTURE} ${WIN32}" )
 
 
 # Flags
