@@ -39,7 +39,7 @@ if(NOT WIN32 AND NOT DEFINED ARCHITECTURE)
 EXECUTE_PROCESS( COMMAND uname -m COMMAND tr -d '\n' OUTPUT_VARIABLE ARCHITECTURE )
 endif()
 
-message( STATUS "Architecture: ${ARCHITECTURE} ${WIN32}" )
+message( STATUS "Architecture: ${ARCHITECTURE}" )
 
 
 # Flags
@@ -88,10 +88,10 @@ SET_TARGET_PROPERTIES(${PROJECT_NAME}   PROPERTIES OUTPUT_NAME ${PROJECT_NAME} C
 
 # Links
 target_link_libraries (${PROJECT_NAME} correct.a)
-if(WIN32)
+
   target_link_libraries(${PROJECT_NAME} wsock32 ws2_32)
   set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -static")
-endif()
+
 
 # Install library
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
