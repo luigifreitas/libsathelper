@@ -96,7 +96,6 @@ if(WIN32)
 endif()
 
 # Install library
-install(TARGETS ${PROJECT_NAME} DESTINATION lib)
 install(TARGETS ${PROJECT_NAME}_s DESTINATION lib)
 
 # Install library headers
