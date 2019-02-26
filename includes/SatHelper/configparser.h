@@ -41,18 +41,6 @@ namespace SatHelper {
             return parameters[key];
         }
 
-        inline float getFloat(const std::string &key) {
-            return (float)std::atof(parameters[key].c_str());
-        }
-
-        inline int getInt(const std::string &key) {
-            return std::atoi(parameters[key].c_str());
-        }
-
-        inline unsigned int getUInt(const std::string &key) {
-            return (unsigned int) (std::strtoul(parameters[key].c_str(), NULL, 10) & 0xFFFFFFFF);
-        }
-
         inline bool getBool(const std::string &key) {
             return parameters[key] == "true";
         }
