@@ -46,6 +46,10 @@ message( STATUS "Architecture: ${ARCHITECTURE}" )
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -fPIC -O3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fPIC -O3")
 
+if(APPLE)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fPIC -stdlib=libstdc++")
+endif()
+
 if(${ARCHITECTURE} STREQUAL "aarch64")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -funsafe-math-optimizations -mtune=cortex-a53 -ftree-vectorize")
 endif()
