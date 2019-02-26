@@ -91,8 +91,13 @@ SET_TARGET_PROPERTIES(${PROJECT_NAME}_s PROPERTIES OUTPUT_NAME ${PROJECT_NAME} C
 SET_TARGET_PROPERTIES(${PROJECT_NAME}   PROPERTIES OUTPUT_NAME ${PROJECT_NAME} CLEAN_DIRECT_OUTPUT 1)
 
 # Links
+if(APPLE)
+include_directories("/go/libcorrect/build/include")
 target_link_libraries(${PROJECT_NAME} /go/libcorrect/build/lib/libcorrect.dylib)
-#target_link_libraries (${PROJECT_NAME} correct.a)
+elseif()
+target_link_libraries (${PROJECT_NAME} correct.a)
+endif()
+
 if(WIN32)
   target_link_libraries(${PROJECT_NAME}_s wsock32 ws2_32)  
   set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -static")
