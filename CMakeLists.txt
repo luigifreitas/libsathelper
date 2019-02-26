@@ -91,7 +91,7 @@ SET_TARGET_PROPERTIES(${PROJECT_NAME}_s PROPERTIES OUTPUT_NAME ${PROJECT_NAME} C
 SET_TARGET_PROPERTIES(${PROJECT_NAME}   PROPERTIES OUTPUT_NAME ${PROJECT_NAME} CLEAN_DIRECT_OUTPUT 1)
 
 # Links
-target_link)libraries(${PROJECT_NAME} /go/libcorrect/build/lib/libcorrect.dylib)
+target_link_libraries(${PROJECT_NAME} /go/libcorrect/build/lib/libcorrect.dylib)
 #target_link_libraries (${PROJECT_NAME} correct.a)
 if(WIN32)
   target_link_libraries(${PROJECT_NAME}_s wsock32 ws2_32)  
