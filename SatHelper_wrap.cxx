@@ -708,60 +708,6 @@ _gostring_ _wrap_ConfigParser_get_SatHelper_0277b8d7625605fd(SatHelper::ConfigPa
 }
 
 
-float _wrap_ConfigParser_getFloat_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0, _gostring_ _swig_go_1) {
-  SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
-  std::string *arg2 = 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
-  
-  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
-  arg2 = &arg2_str;
-  
-  
-  result = (float)(arg1)->getFloat((std::string const &)*arg2);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-intgo _wrap_ConfigParser_getInt_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0, _gostring_ _swig_go_1) {
-  SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
-  std::string *arg2 = 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
-  
-  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
-  arg2 = &arg2_str;
-  
-  
-  result = (int)(arg1)->getInt((std::string const &)*arg2);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-intgo _wrap_ConfigParser_getUInt_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0, _gostring_ _swig_go_1) {
-  SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
-  std::string *arg2 = 0 ;
-  unsigned int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
-  
-  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
-  arg2 = &arg2_str;
-  
-  
-  result = (unsigned int)(arg1)->getUInt((std::string const &)*arg2);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
 bool _wrap_ConfigParser_getBool_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0, _gostring_ _swig_go_1) {
   SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
   std::string *arg2 = 0 ;
