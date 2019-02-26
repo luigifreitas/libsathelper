@@ -73,8 +73,8 @@ include_directories ("${PROJECT_SOURCE_DIR}/includes/SatHelper/exceptions")
 include_directories ("${PROJECT_SOURCE_DIR}/includes/SatHelper/SIMD")
 
 if(APPLE)
-  include_directories ("/usr/local/include")
-  link_directories ("/usr/local/lib")
+  #include_directories ("/usr/local/include")
+  #link_directories ("/usr/local/lib")
 endif()
 
 # Library Source Code
