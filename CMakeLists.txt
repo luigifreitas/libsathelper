@@ -80,15 +80,15 @@ endif()
 file(GLOB SOURCES src/*.cpp src/SIMD/*.cpp src/dsp/*.cpp)
 
 # Library Targets
-#add_library(${PROJECT_NAME} SHARED ${SOURCES})
+add_library(${PROJECT_NAME} SHARED ${SOURCES})
 add_library(${PROJECT_NAME}_s STATIC ${SOURCES})
 SET_TARGET_PROPERTIES(${PROJECT_NAME}_s PROPERTIES OUTPUT_NAME ${PROJECT_NAME} CLEAN_DIRECT_OUTPUT 1)
-#SET_TARGET_PROPERTIES(${PROJECT_NAME}   PROPERTIES OUTPUT_NAME ${PROJECT_NAME} CLEAN_DIRECT_OUTPUT 1)
+SET_TARGET_PROPERTIES(${PROJECT_NAME}   PROPERTIES OUTPUT_NAME ${PROJECT_NAME} CLEAN_DIRECT_OUTPUT 1)
 
 # Links
 if(APPLE)
 include_directories("/go/libcorrect/build/include")
-#target_link_libraries(${PROJECT_NAME} /go/libcorrect/build/lib/libcorrect.dylib)
+target_link_libraries(${PROJECT_NAME} /go/libcorrect/build/lib/libcorrect.dylib)
 elseif()
 target_link_libraries (${PROJECT_NAME} correct.a)
 endif()
@@ -99,7 +99,7 @@ if(WIN32)
 endif()
 
 # Install library
-#install(TARGETS ${PROJECT_NAME} DESTINATION lib)
+install(TARGETS ${PROJECT_NAME} DESTINATION lib)
 install(TARGETS ${PROJECT_NAME}_s DESTINATION lib)
 
 # Install library headers
