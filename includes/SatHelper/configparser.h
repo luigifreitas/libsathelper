@@ -9,13 +9,11 @@
 #define INCLUDES_SATHELPER_CONFIGPARSER_H_
 
 #include <string>
-#include <unordered_map>
 
 namespace SatHelper {
 
     class ConfigParser {
     private:
-        std::unordered_map<std::string, std::string> parameters;
         std::string filename;
 
     public:
