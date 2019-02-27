@@ -7,7 +7,6 @@ include(CheckIncludeFiles)
 include(CheckCSourceCompiles)
 include(CMakePushCheckState)
 include(CheckCCompilerFlag)
-include(CheckCompilerFlags)
 include(GetGitRevisionDescription)
 
 set(CMAKE_CXX_STANDARD 11)
