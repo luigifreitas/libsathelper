@@ -636,59 +636,10 @@ void _wrap_delete_VecDouble_SatHelper_0277b8d7625605fd(std::vector< double > *_s
 }
 
 
-SatHelper::ConfigParser *_wrap_new_ConfigParser_SatHelper_0277b8d7625605fd(_gostring_ _swig_go_0) {
-  std::string *arg1 = 0 ;
-  SatHelper::ConfigParser *result = 0 ;
-  SatHelper::ConfigParser *_swig_go_result;
-  
-  
-  std::string arg1_str(_swig_go_0.p, _swig_go_0.n);
-  arg1 = &arg1_str;
-  
-  
-  result = (SatHelper::ConfigParser *)new SatHelper::ConfigParser((std::string const &)*arg1);
-  *(SatHelper::ConfigParser **)&_swig_go_result = (SatHelper::ConfigParser *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_ConfigParser_SaveFile_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0) {
-  SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
-  
-  arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
-  
-  (arg1)->SaveFile();
-  
-}
-
-
-bool _wrap_ConfigParser_LoadFile_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0) {
-  SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
-  bool result;
-  bool _swig_go_result;
-  
-  arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
-  
-  result = (bool)(arg1)->LoadFile();
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_delete_ConfigParser_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0) {
-  SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
-  
-  arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
-  
-  delete arg1;
-  
-}
-
-
 SatHelper::ConfigParser *_wrap_ConfigParser___getitem___SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0, _gostring_ _swig_go_1) {
   SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
   std::string *arg2 = 0 ;
-  SwigValueWrapper< SatHelper::ConfigParser > result;
+  SatHelper::ConfigParser result;
   SatHelper::ConfigParser *_swig_go_result;
   
   arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
@@ -700,6 +651,27 @@ SatHelper::ConfigParser *_wrap_ConfigParser___getitem___SatHelper_0277b8d7625605
   result = SatHelper_ConfigParser___getitem__(arg1,(std::string const &)*arg2);
   *(SatHelper::ConfigParser **)&_swig_go_result = new SatHelper::ConfigParser(result); 
   return _swig_go_result;
+}
+
+
+SatHelper::ConfigParser *_wrap_new_ConfigParser_SatHelper_0277b8d7625605fd() {
+  SatHelper::ConfigParser *result = 0 ;
+  SatHelper::ConfigParser *_swig_go_result;
+  
+  
+  result = (SatHelper::ConfigParser *)new SatHelper::ConfigParser();
+  *(SatHelper::ConfigParser **)&_swig_go_result = (SatHelper::ConfigParser *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_ConfigParser_SatHelper_0277b8d7625605fd(SatHelper::ConfigParser *_swig_go_0) {
+  SatHelper::ConfigParser *arg1 = (SatHelper::ConfigParser *) 0 ;
+  
+  arg1 = *(SatHelper::ConfigParser **)&_swig_go_0; 
+  
+  delete arg1;
+  
 }
 
 

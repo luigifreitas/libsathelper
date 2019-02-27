@@ -41,22 +41,21 @@ typedef long long swig_type_6;
 typedef long long swig_type_7;
 typedef long long swig_type_8;
 typedef _gostring_ swig_type_9;
-typedef _gostring_ swig_type_10;
-typedef long long swig_type_11;
+typedef long long swig_type_10;
+typedef _gostring_ swig_type_11;
 typedef _gostring_ swig_type_12;
 typedef _gostring_ swig_type_13;
 typedef _gostring_ swig_type_14;
-typedef _gostring_ swig_type_15;
+typedef _Complex float swig_type_15;
 typedef _Complex float swig_type_16;
 typedef _Complex float swig_type_17;
 typedef _Complex float swig_type_18;
-typedef _Complex float swig_type_19;
+typedef long long swig_type_19;
 typedef long long swig_type_20;
-typedef long long swig_type_21;
+typedef _gostring_ swig_type_21;
 typedef _gostring_ swig_type_22;
 typedef _gostring_ swig_type_23;
 typedef _gostring_ swig_type_24;
-typedef _gostring_ swig_type_25;
 extern void _wrap_Swig_free_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern uintptr_t _wrap_Swig_malloc_SatHelper_0277b8d7625605fd(swig_intgo arg1);
 extern uintptr_t _wrap_new_VecFloat__SWIG_0_SatHelper_0277b8d7625605fd(void);
@@ -81,11 +80,9 @@ extern void _wrap_VecDouble_add_SatHelper_0277b8d7625605fd(uintptr_t arg1, doubl
 extern double _wrap_VecDouble_get_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_intgo arg2);
 extern void _wrap_VecDouble_set_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_intgo arg2, double arg3);
 extern void _wrap_delete_VecDouble_SatHelper_0277b8d7625605fd(uintptr_t arg1);
-extern uintptr_t _wrap_new_ConfigParser_SatHelper_0277b8d7625605fd(swig_type_9 arg1);
-extern void _wrap_ConfigParser_SaveFile_SatHelper_0277b8d7625605fd(uintptr_t arg1);
-extern _Bool _wrap_ConfigParser_LoadFile_SatHelper_0277b8d7625605fd(uintptr_t arg1);
+extern uintptr_t _wrap_ConfigParser___getitem___SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_type_9 arg2);
+extern uintptr_t _wrap_new_ConfigParser_SatHelper_0277b8d7625605fd(void);
 extern void _wrap_delete_ConfigParser_SatHelper_0277b8d7625605fd(uintptr_t arg1);
-extern uintptr_t _wrap_ConfigParser___getitem___SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_type_10 arg2);
 extern _Bool _wrap_Correlator_hardCorrelate_SatHelper_0277b8d7625605fd(char arg1, char arg2);
 extern swig_intgo _wrap_Correlator_softCorrelate_SatHelper_0277b8d7625605fd(char arg1, char arg2);
 extern uintptr_t _wrap_new_Correlator_SatHelper_0277b8d7625605fd(void);
@@ -94,7 +91,7 @@ extern swig_intgo _wrap_Correlator_getHighestCorrelation_SatHelper_0277b8d762560
 extern swig_intgo _wrap_Correlator_getHighestCorrelationPosition_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern swig_intgo _wrap_Correlator_getCorrelationWordNumber_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern void _wrap_Correlator_addWord__SWIG_0_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Correlator_addWord__SWIG_1_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_type_11 arg2);
+extern void _wrap_Correlator_addWord__SWIG_1_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_type_10 arg2);
 extern void _wrap_Correlator_correlate_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3);
 extern uintptr_t _wrap_new_Viterbi27__SWIG_0_SatHelper_0277b8d7625605fd(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
 extern uintptr_t _wrap_new_Viterbi27__SWIG_1_SatHelper_0277b8d7625605fd(swig_intgo arg1);
@@ -134,9 +131,9 @@ extern uintptr_t _wrap_new_IPAddress__SWIG_1_SatHelper_0277b8d7625605fd(swig_int
 extern uintptr_t _wrap_new_IPAddress__SWIG_2_SatHelper_0277b8d7625605fd(swig_intgo arg1);
 extern uintptr_t _wrap_new_IPAddress__SWIG_3_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern uintptr_t _wrap_new_IPAddress__SWIG_4_SatHelper_0277b8d7625605fd(char arg1, char arg2, char arg3, char arg4);
-extern uintptr_t _wrap_new_IPAddress__SWIG_5_SatHelper_0277b8d7625605fd(swig_type_12 arg1);
-extern uintptr_t _wrap_new_IPAddress__SWIG_6_SatHelper_0277b8d7625605fd(swig_type_13 arg1);
-extern swig_type_14 _wrap_IPAddress_ToString_SatHelper_0277b8d7625605fd(uintptr_t arg1);
+extern uintptr_t _wrap_new_IPAddress__SWIG_5_SatHelper_0277b8d7625605fd(swig_type_11 arg1);
+extern uintptr_t _wrap_new_IPAddress__SWIG_6_SatHelper_0277b8d7625605fd(swig_type_12 arg1);
+extern swig_type_13 _wrap_IPAddress_ToString_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern swig_intgo _wrap_IPAddress_ToUint32_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern uintptr_t _wrap_IPAddress_ToInAddr_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern _Bool _wrap_IPAddress_equals_SatHelper_0277b8d7625605fd(uintptr_t arg1, uintptr_t arg2);
@@ -147,8 +144,8 @@ extern uintptr_t _wrap_new_DeRandomizer_SatHelper_0277b8d7625605fd(void);
 extern void _wrap_delete_DeRandomizer_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern swig_intgo _wrap_Tools_swapEndianess_SatHelper_0277b8d7625605fd(swig_intgo arg1);
 extern swig_intgo _wrap_Tools_getTimestamp_SatHelper_0277b8d7625605fd(void);
-extern void _wrap_Tools_makedir_SatHelper_0277b8d7625605fd(swig_type_15 arg1);
-extern swig_type_16 _wrap_Tools_phase2complex_SatHelper_0277b8d7625605fd(float arg1);
+extern void _wrap_Tools_makedir_SatHelper_0277b8d7625605fd(swig_type_14 arg1);
+extern swig_type_15 _wrap_Tools_phase2complex_SatHelper_0277b8d7625605fd(float arg1);
 extern float _wrap_Tools_clip_SatHelper_0277b8d7625605fd(float arg1, float arg2);
 extern uintptr_t _wrap_new_Tools_SatHelper_0277b8d7625605fd(void);
 extern void _wrap_delete_Tools_SatHelper_0277b8d7625605fd(uintptr_t arg1);
@@ -168,7 +165,7 @@ extern void _wrap_AGC_SetRate_SatHelper_0277b8d7625605fd(uintptr_t arg1, float a
 extern void _wrap_AGC_SetReference_SatHelper_0277b8d7625605fd(uintptr_t arg1, float arg2);
 extern void _wrap_AGC_SetGain_SatHelper_0277b8d7625605fd(uintptr_t arg1, float arg2);
 extern void _wrap_AGC_SetMaxGain_SatHelper_0277b8d7625605fd(uintptr_t arg1, float arg2);
-extern swig_type_17 _wrap_AGC_scale_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2);
+extern swig_type_16 _wrap_AGC_scale_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2);
 extern void _wrap_AGC_scaleN_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
 extern void _wrap_AGC_Work_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
 extern void _wrap_delete_AGC_SatHelper_0277b8d7625605fd(uintptr_t arg1);
@@ -266,20 +263,20 @@ extern uintptr_t _wrap_new_MMSEFirInterpolator_SatHelper_0277b8d7625605fd(void);
 extern void _wrap_delete_MMSEFirInterpolator_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern swig_intgo _wrap_MMSEFirInterpolator_GetNTaps_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern swig_intgo _wrap_MMSEFirInterpolator_GetNSteps_SatHelper_0277b8d7625605fd(uintptr_t arg1);
-extern swig_type_18 _wrap_MMSEFirInterpolator_interpolate_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, float arg3);
+extern swig_type_17 _wrap_MMSEFirInterpolator_interpolate_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, float arg3);
 extern uintptr_t _wrap_new_FirKernel_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern void _wrap_delete_FirKernel_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern void _wrap_FirKernel_SetTaps_SatHelper_0277b8d7625605fd(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_19 _wrap_FirKernel_filter_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_FirKernel_filterData_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_20 arg4);
-extern void _wrap_FirKernel_FilterDecimating_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_21 arg4, swig_intgo arg5);
+extern swig_type_18 _wrap_FirKernel_filter_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_FirKernel_filterData_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_19 arg4);
+extern void _wrap_FirKernel_FilterDecimating_SatHelper_0277b8d7625605fd(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_20 arg4, swig_intgo arg5);
 extern void _wrap_FirKernel_UpdateTap_SatHelper_0277b8d7625605fd(uintptr_t arg1, float arg2, swig_intgo arg3);
 extern uintptr_t _wrap_FirKernel_GetTaps_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern swig_intgo _wrap_FirKernel_GetNTaps_SatHelper_0277b8d7625605fd(uintptr_t arg1);
-extern swig_type_22 _wrap_Info_GetVersion_SatHelper_0277b8d7625605fd(void);
-extern swig_type_23 _wrap_Info_GetCompilationDate_SatHelper_0277b8d7625605fd(void);
-extern swig_type_24 _wrap_Info_GetCompilationTime_SatHelper_0277b8d7625605fd(void);
-extern swig_type_25 _wrap_Info_GetGitSHA1_SatHelper_0277b8d7625605fd(void);
+extern swig_type_21 _wrap_Info_GetVersion_SatHelper_0277b8d7625605fd(void);
+extern swig_type_22 _wrap_Info_GetCompilationDate_SatHelper_0277b8d7625605fd(void);
+extern swig_type_23 _wrap_Info_GetCompilationTime_SatHelper_0277b8d7625605fd(void);
+extern swig_type_24 _wrap_Info_GetGitSHA1_SatHelper_0277b8d7625605fd(void);
 extern uintptr_t _wrap_new_Info_SatHelper_0277b8d7625605fd(void);
 extern void _wrap_delete_Info_SatHelper_0277b8d7625605fd(uintptr_t arg1);
 extern void _wrap_Extensions_hasFMA_set_SatHelper_0277b8d7625605fd(_Bool arg1);
@@ -556,25 +553,20 @@ func (p SwigcptrConfigParser) Swigcptr() uintptr {
 func (p SwigcptrConfigParser) SwigIsConfigParser() {
 }
 
-func NewConfigParser(arg1 string) (_swig_ret ConfigParser) {
+func (arg1 SwigcptrConfigParser) X__getitem__(arg2 string) (_swig_ret ConfigParser) {
 	var swig_r ConfigParser
 	_swig_i_0 := arg1
-	swig_r = (ConfigParser)(SwigcptrConfigParser(C._wrap_new_ConfigParser_SatHelper_0277b8d7625605fd(*(*C.swig_type_9)(unsafe.Pointer(&_swig_i_0)))))
+	_swig_i_1 := arg2
+	swig_r = (ConfigParser)(SwigcptrConfigParser(C._wrap_ConfigParser___getitem___SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), *(*C.swig_type_9)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
-		Swig_escape_val = arg1
+		Swig_escape_val = arg2
 	}
 	return swig_r
 }
 
-func (arg1 SwigcptrConfigParser) SaveFile() {
-	_swig_i_0 := arg1
-	C._wrap_ConfigParser_SaveFile_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0))
-}
-
-func (arg1 SwigcptrConfigParser) LoadFile() (_swig_ret bool) {
-	var swig_r bool
-	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_ConfigParser_LoadFile_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0)))
+func NewConfigParser() (_swig_ret ConfigParser) {
+	var swig_r ConfigParser
+	swig_r = (ConfigParser)(SwigcptrConfigParser(C._wrap_new_ConfigParser_SatHelper_0277b8d7625605fd()))
 	return swig_r
 }
 
@@ -583,22 +575,9 @@ func DeleteConfigParser(arg1 ConfigParser) {
 	C._wrap_delete_ConfigParser_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0))
 }
 
-func (arg1 SwigcptrConfigParser) X__getitem__(arg2 string) (_swig_ret ConfigParser) {
-	var swig_r ConfigParser
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	swig_r = (ConfigParser)(SwigcptrConfigParser(C._wrap_ConfigParser___getitem___SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1)))))
-	if Swig_escape_always_false {
-		Swig_escape_val = arg2
-	}
-	return swig_r
-}
-
 type ConfigParser interface {
 	Swigcptr() uintptr
 	SwigIsConfigParser()
-	SaveFile()
-	LoadFile() (_swig_ret bool)
 	X__getitem__(arg2 string) (_swig_ret ConfigParser)
 }
 
@@ -668,7 +647,7 @@ func (arg1 SwigcptrCorrelator) AddWord__SWIG_0(arg2 uint) {
 func (arg1 SwigcptrCorrelator) AddWord__SWIG_1(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Correlator_addWord__SWIG_1_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), C.swig_type_11(_swig_i_1))
+	C._wrap_Correlator_addWord__SWIG_1_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), C.swig_type_10(_swig_i_1))
 }
 
 func (p SwigcptrCorrelator) AddWord(a ...interface{}) {
@@ -1061,7 +1040,7 @@ func NewIPAddress__SWIG_4(arg1 byte, arg2 byte, arg3 byte, arg4 byte) (_swig_ret
 func NewIPAddress__SWIG_5(arg1 string) (_swig_ret IPAddress) {
 	var swig_r IPAddress
 	_swig_i_0 := arg1
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_5_SatHelper_0277b8d7625605fd(*(*C.swig_type_12)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_5_SatHelper_0277b8d7625605fd(*(*C.swig_type_11)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1071,7 +1050,7 @@ func NewIPAddress__SWIG_5(arg1 string) (_swig_ret IPAddress) {
 func NewIPAddress__SWIG_6(arg1 string) (_swig_ret IPAddress) {
 	var swig_r IPAddress
 	_swig_i_0 := arg1
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_6_SatHelper_0277b8d7625605fd(*(*C.swig_type_13)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_6_SatHelper_0277b8d7625605fd(*(*C.swig_type_12)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1230,7 +1209,7 @@ func ToolsGetTimestamp() (_swig_ret uint) {
 
 func ToolsMakedir(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_Tools_makedir_SatHelper_0277b8d7625605fd(*(*C.swig_type_15)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_Tools_makedir_SatHelper_0277b8d7625605fd(*(*C.swig_type_14)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -2334,7 +2313,7 @@ func (arg1 SwigcptrFirKernel) FilterData(arg2 *complex64, arg3 *complex64, arg4 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_FirKernel_filterData_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_20(_swig_i_3))
+	C._wrap_FirKernel_filterData_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_19(_swig_i_3))
 }
 
 func (arg1 SwigcptrFirKernel) FilterDecimating(arg2 *complex64, arg3 *complex64, arg4 uint64, arg5 uint) {
@@ -2343,7 +2322,7 @@ func (arg1 SwigcptrFirKernel) FilterDecimating(arg2 *complex64, arg3 *complex64,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_FirKernel_FilterDecimating_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_21(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap_FirKernel_FilterDecimating_SatHelper_0277b8d7625605fd(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_20(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 func (arg1 SwigcptrFirKernel) UpdateTap(arg2 float32, arg3 uint) {
