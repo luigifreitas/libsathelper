@@ -320,9 +320,6 @@ public:
         if (ret != WAIT_OBJECT_0)
         {
             using namespace std;
-            throw system_error(make_error_code((ret == WAIT_ABANDONED) ?
-                                                  errc::owner_dead :
-                                                  errc::protocol_error));
         }
     }
     void unlock()
