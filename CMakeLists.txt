@@ -2,19 +2,17 @@ cmake_minimum_required (VERSION 2.6)
 project (sathelper)
 enable_language(CXX)
 
-set(CMAKE_MACOSX_RPATH 1)
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
-include(GetGitRevisionDescription)
-get_git_head_revision(GIT_REFSPEC GIT_SHA1)
-
-# C++11 Macro
-macro(use_cxx11)
-  set (CMAKE_CXX_STANDARD 11)
-endmacro(use_cxx11)
-
-use_cxx11()
-
+include(CheckLibraryExists)
+include(CheckIncludeFiles)
+include(CheckCSourceCompiles)
+include(CMakePushCheckState)
+include(CheckCCompilerFlag)
 include(CheckCompilerFlags)
+include(GetGitRevisionDescription)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_MACOSX_RPATH 1)
+get_git_head_revision(GIT_REFSPEC GIT_SHA1)
 
 if(CMAKE_COMPILER_IS_GNUCXX)
     ADD_CXX_COMPILER_FLAG_IF_AVAILABLE(-Wsign-compare HAVE_WARN_SIGN_COMPARE)
@@ -121,13 +119,3 @@ install(FILES ${HEADERS_EXCEPTIONS} DESTINATION include/${PROJECT_NAME}/exceptio
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
-# Debian Package
-SET(CPACK_GENERATOR "DEB")
-#SET(CPACK_PACKAGE_NAME "libSatHelper")
-SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "Lucas Teske")
-SET(CPACK_DEBIAN_PACKAGE_DEPENDS "libcorrect")
-SET(CPACK_DEBIAN_PACKAGE_DESCRIPTION "SatHelper library for Satellite Projects")
-SET(CPACK_PACKAGE_VERSION_MAJOR ${VERSION_INFO_MAJOR_VERSION})
-SET(CPACK_PACKAGE_VERSION_MINOR ${VERSION_INFO_MINOR_VERSION})
-SET(CPACK_PACKAGE_VERSION_PATCH ${VERSION_INFO_MAINT_VERSION})
-INCLUDE(CPack)
