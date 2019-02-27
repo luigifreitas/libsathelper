@@ -30,7 +30,7 @@ typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 
 
 #cgo CXXFLAGS: -std=c++11 -O0
-#cgo LDFLAGS: -l:libSatHelper.a -l:libcorrect.a
+#cgo LDFLAGS: -l:libcorrect.a -l:libsathelper.a
 
 typedef long long swig_type_1;
 typedef long long swig_type_2;
@@ -296,28 +296,26 @@ import "unsafe"
 import _ "runtime/cgo"
 import "sync"
 
-
 type _ unsafe.Pointer
-
-
 
 var Swig_escape_always_false bool
 var Swig_escape_val interface{}
 
-
 type _swig_fnptr *byte
 type _swig_memberptr *byte
 
-
 type _ sync.Mutex
 
+type swig_gostring struct {
+	p uintptr
+	n int
+}
 
-type swig_gostring struct { p uintptr; n int }
 func swigCopyString(s string) string {
-  p := *(*swig_gostring)(unsafe.Pointer(&s))
-  r := string((*[0x7fffffff]byte)(unsafe.Pointer(p.p))[:p.n])
-  Swig_free(p.p)
-  return r
+	p := *(*swig_gostring)(unsafe.Pointer(&s))
+	r := string((*[0x7fffffff]byte)(unsafe.Pointer(p.p))[:p.n])
+	Swig_free(p.p)
+	return r
 }
 
 func Swig_free(arg1 uintptr) {
@@ -645,6 +643,7 @@ type Correlator interface {
 
 const X_VITERBI27_POLYA int = 0x4F
 const X_VITERBI27_POLYB int = 0x6D
+
 type SwigcptrViterbi27 uintptr
 
 func (p SwigcptrViterbi27) Swigcptr() uintptr {
@@ -825,6 +824,7 @@ type ReedSolomon interface {
 }
 
 type SatHelperPhaseShift int
+
 func _swig_getDEG_0() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
 	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_0_SatHelper_cd0dc6289f5c3405())
@@ -832,6 +832,7 @@ func _swig_getDEG_0() (_swig_ret SatHelperPhaseShift) {
 }
 
 var DEG_0 SatHelperPhaseShift = _swig_getDEG_0()
+
 func _swig_getDEG_90() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
 	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_90_SatHelper_cd0dc6289f5c3405())
@@ -839,6 +840,7 @@ func _swig_getDEG_90() (_swig_ret SatHelperPhaseShift) {
 }
 
 var DEG_90 SatHelperPhaseShift = _swig_getDEG_90()
+
 func _swig_getDEG_180() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
 	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_180_SatHelper_cd0dc6289f5c3405())
@@ -846,6 +848,7 @@ func _swig_getDEG_180() (_swig_ret SatHelperPhaseShift) {
 }
 
 var DEG_180 SatHelperPhaseShift = _swig_getDEG_180()
+
 func _swig_getDEG_270() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
 	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_270_SatHelper_cd0dc6289f5c3405())
@@ -853,6 +856,7 @@ func _swig_getDEG_270() (_swig_ret SatHelperPhaseShift) {
 }
 
 var DEG_270 SatHelperPhaseShift = _swig_getDEG_270()
+
 type SwigcptrPacketFixer uintptr
 
 func (p SwigcptrPacketFixer) Swigcptr() uintptr {
@@ -924,6 +928,7 @@ type ScreenManager interface {
 }
 
 type SatHelperPresetIpAddress int
+
 func _swig_getIP_ANY() (_swig_ret SatHelperPresetIpAddress) {
 	var swig_r SatHelperPresetIpAddress
 	swig_r = (SatHelperPresetIpAddress)(C._wrap_IP_ANY_SatHelper_cd0dc6289f5c3405())
@@ -931,6 +936,7 @@ func _swig_getIP_ANY() (_swig_ret SatHelperPresetIpAddress) {
 }
 
 var IP_ANY SatHelperPresetIpAddress = _swig_getIP_ANY()
+
 func _swig_getIP_LOCALHOST() (_swig_ret SatHelperPresetIpAddress) {
 	var swig_r SatHelperPresetIpAddress
 	swig_r = (SatHelperPresetIpAddress)(C._wrap_IP_LOCALHOST_SatHelper_cd0dc6289f5c3405())
@@ -938,6 +944,7 @@ func _swig_getIP_LOCALHOST() (_swig_ret SatHelperPresetIpAddress) {
 }
 
 var IP_LOCALHOST SatHelperPresetIpAddress = _swig_getIP_LOCALHOST()
+
 type SwigcptrIPAddress uintptr
 
 func (p SwigcptrIPAddress) Swigcptr() uintptr {
@@ -1064,7 +1071,7 @@ func (arg1 SwigcptrIPAddress) ToString() (_swig_ret string) {
 	swig_r_p := C._wrap_IPAddress_ToString_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r) 
+	swig_r_1 = swigCopyString(swig_r)
 	return swig_r_1
 }
 
@@ -1506,6 +1513,7 @@ type ClockRecovery interface {
 const M_TWOPI float64 = 6.28318530717958647692
 const M_ONE_OVER_2PI float64 = 0.15915494309189533577
 const M_MINUS_TWO_PI float64 = -6.28318530717958647692
+
 type SwigcptrControlLoop uintptr
 
 func (p SwigcptrControlLoop) Swigcptr() uintptr {
@@ -1938,6 +1946,7 @@ func (p SwigcptrFFTWindows) SwigIsFFTWindows() {
 }
 
 type SatHelperFFTWindowsWindowType int
+
 func _swig_getFFTWindows_HAMMING_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_HAMMING_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1945,6 +1954,7 @@ func _swig_getFFTWindows_HAMMING_FFTWindows() (_swig_ret SatHelperFFTWindowsWind
 }
 
 var FFTWindowsHAMMING SatHelperFFTWindowsWindowType = _swig_getFFTWindows_HAMMING_FFTWindows()
+
 func _swig_getFFTWindows_HANN_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_HANN_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1952,6 +1962,7 @@ func _swig_getFFTWindows_HANN_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowT
 }
 
 var FFTWindowsHANN SatHelperFFTWindowsWindowType = _swig_getFFTWindows_HANN_FFTWindows()
+
 func _swig_getFFTWindows_BLACKMAN_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BLACKMAN_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1959,6 +1970,7 @@ func _swig_getFFTWindows_BLACKMAN_FFTWindows() (_swig_ret SatHelperFFTWindowsWin
 }
 
 var FFTWindowsBLACKMAN SatHelperFFTWindowsWindowType = _swig_getFFTWindows_BLACKMAN_FFTWindows()
+
 func _swig_getFFTWindows_RECTANGULAR_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_RECTANGULAR_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1966,6 +1978,7 @@ func _swig_getFFTWindows_RECTANGULAR_FFTWindows() (_swig_ret SatHelperFFTWindows
 }
 
 var FFTWindowsRECTANGULAR SatHelperFFTWindowsWindowType = _swig_getFFTWindows_RECTANGULAR_FFTWindows()
+
 func _swig_getFFTWindows_KAISER_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_KAISER_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1973,6 +1986,7 @@ func _swig_getFFTWindows_KAISER_FFTWindows() (_swig_ret SatHelperFFTWindowsWindo
 }
 
 var FFTWindowsKAISER SatHelperFFTWindowsWindowType = _swig_getFFTWindows_KAISER_FFTWindows()
+
 func _swig_getFFTWindows_BLACKMAN_HARRIS_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BLACKMAN_HARRIS_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1980,6 +1994,7 @@ func _swig_getFFTWindows_BLACKMAN_HARRIS_FFTWindows() (_swig_ret SatHelperFFTWin
 }
 
 var FFTWindowsBLACKMAN_HARRIS SatHelperFFTWindowsWindowType = _swig_getFFTWindows_BLACKMAN_HARRIS_FFTWindows()
+
 func _swig_getFFTWindows_BARTLETT_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BARTLETT_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1987,6 +2002,7 @@ func _swig_getFFTWindows_BARTLETT_FFTWindows() (_swig_ret SatHelperFFTWindowsWin
 }
 
 var FFTWindowsBARTLETT SatHelperFFTWindowsWindowType = _swig_getFFTWindows_BARTLETT_FFTWindows()
+
 func _swig_getFFTWindows_FLATTOP_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
 	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_FLATTOP_FFTWindows_SatHelper_cd0dc6289f5c3405())
@@ -1994,6 +2010,7 @@ func _swig_getFFTWindows_FLATTOP_FFTWindows() (_swig_ret SatHelperFFTWindowsWind
 }
 
 var FFTWindowsFLATTOP SatHelperFFTWindowsWindowType = _swig_getFFTWindows_FLATTOP_FFTWindows()
+
 func FFTWindowsRectangular(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
@@ -2331,7 +2348,7 @@ func InfoGetVersion() (_swig_ret string) {
 	swig_r_p := C._wrap_Info_GetVersion_SatHelper_cd0dc6289f5c3405()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r) 
+	swig_r_1 = swigCopyString(swig_r)
 	return swig_r_1
 }
 
@@ -2340,7 +2357,7 @@ func InfoGetCompilationDate() (_swig_ret string) {
 	swig_r_p := C._wrap_Info_GetCompilationDate_SatHelper_cd0dc6289f5c3405()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r) 
+	swig_r_1 = swigCopyString(swig_r)
 	return swig_r_1
 }
 
@@ -2349,7 +2366,7 @@ func InfoGetCompilationTime() (_swig_ret string) {
 	swig_r_p := C._wrap_Info_GetCompilationTime_SatHelper_cd0dc6289f5c3405()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r) 
+	swig_r_1 = swigCopyString(swig_r)
 	return swig_r_1
 }
 
@@ -2358,7 +2375,7 @@ func InfoGetGitSHA1() (_swig_ret string) {
 	swig_r_p := C._wrap_Info_GetGitSHA1_SatHelper_cd0dc6289f5c3405()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r) 
+	swig_r_1 = swigCopyString(swig_r)
 	return swig_r_1
 }
 
@@ -2467,12 +2484,11 @@ type Extensions interface {
 	SwigIsExtensions()
 }
 
-
 type SwigcptrIn_addr uintptr
 type In_addr interface {
-	Swigcptr() uintptr;
+	Swigcptr() uintptr
 }
+
 func (p SwigcptrIn_addr) Swigcptr() uintptr {
 	return uintptr(p)
 }
-
