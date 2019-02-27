@@ -23,7 +23,6 @@
 %include "./swig/go/std_complex.i"
 
 %include "./includes/SatHelper/sathelper.h"
-%include "./includes/SatHelper/configparser.h"
 %include "./includes/SatHelper/correlator.h"
 %include "./includes/SatHelper/viterbi27.h"
 %include "./includes/SatHelper/reedsolomon.h"
@@ -49,8 +48,3 @@
 %include "./includes/SatHelper/info.h"
 %include "./includes/SatHelper/extensions.h"
 
-%extend SatHelper::ConfigParser {
-    SatHelper::ConfigParser __getitem__(const std::string &key) {
-        return (*($self))[key];
-    }
-}

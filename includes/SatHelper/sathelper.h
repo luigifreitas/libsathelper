@@ -8,7 +8,6 @@
 #ifndef SATHELPER_INCLUDES_SATHELPER_H_
 #define SATHELPER_INCLUDES_SATHELPER_H_
 
-#include <SatHelper/configparser.h>
 #include <SatHelper/correlator.h>
 #include <SatHelper/viterbi27.h>
 #include <SatHelper/reedsolomon.h>
