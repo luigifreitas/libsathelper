@@ -88,7 +88,7 @@ SET_TARGET_PROPERTIES(${PROJECT_NAME}_s PROPERTIES OUTPUT_NAME ${PROJECT_NAME} C
 # Links
 if(APPLE)
 include_directories("/go/libcorrect/build/include")
-target_link_libraries(${PROJECT_NAME} /go/libcorrect/build/lib/libcorrect.dylib)
+#target_link_libraries(${PROJECT_NAME} /go/libcorrect/build/lib/libcorrect.dylib)
 elseif()
 target_link_libraries (${PROJECT_NAME} correct.a)
 endif()
