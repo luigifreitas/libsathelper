@@ -20,27 +20,27 @@ namespace SatHelper {
         ConfigParser(const std::string &filename);
 
         inline void set(const std::string &key, const std::string &value) {
-            parameters[key] = value;
+            
         }
 
         inline bool hasKey(const std::string &key) {
-            return parameters.find(key) != parameters.end();
+            return true;
         }
 
         inline std::string get(const std::string &key) {
             if (parameters.find(key) != parameters.end()) {
-                return parameters[key];
+                return "";
             } else {
                 return std::string();
             }
         }
 
         inline std::string &operator[](const std::string &key) {
-            return parameters[key];
+            return "";
         }
 
         inline bool getBool(const std::string &key) {
-            return parameters[key] == "true";
+            return true;
         }
 
         void SaveFile();
