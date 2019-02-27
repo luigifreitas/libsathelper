@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-project (SatHelper)
+project (sathelper)
 enable_language(CXX)
 
 set(CMAKE_MACOSX_RPATH 1)
