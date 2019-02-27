@@ -19,13 +19,7 @@ namespace SatHelper {
         std::string filename;
 
     public:
-        ConfigParser(const std::string &filename);
 
- 
-
-        void SaveFile();
-        bool LoadFile();
-        virtual ~ConfigParser();
     };
 
 } /* namespace SatHelper */
