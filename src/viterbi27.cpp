@@ -9,7 +9,7 @@
 
 extern "C" {
 #include <correct.h>
-    #ifdef ARCHITECTURE
+    #ifdef MEMORY_OP_X86
         #include <correct-sse.h>
     #endif
 }
