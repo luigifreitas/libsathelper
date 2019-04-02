@@ -54,239 +54,239 @@ typedef _gostring_ swig_type_20;
 typedef _gostring_ swig_type_21;
 typedef _gostring_ swig_type_22;
 typedef _gostring_ swig_type_23;
-extern void _wrap_Swig_free_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_new_VecFloat__SWIG_0_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_new_VecFloat__SWIG_1_SatHelper_cd0dc6289f5c3405(swig_type_1 arg1);
-extern swig_type_2 _wrap_VecFloat_size_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_type_3 _wrap_VecFloat_capacity_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_VecFloat_reserve_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_type_4 arg2);
-extern _Bool _wrap_VecFloat_isEmpty_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_VecFloat_clear_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_VecFloat_add_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern float _wrap_VecFloat_get_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_VecFloat_set_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_intgo arg2, float arg3);
-extern void _wrap_delete_VecFloat_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_new_VecDouble__SWIG_0_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_new_VecDouble__SWIG_1_SatHelper_cd0dc6289f5c3405(swig_type_5 arg1);
-extern swig_type_6 _wrap_VecDouble_size_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_type_7 _wrap_VecDouble_capacity_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_VecDouble_reserve_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_type_8 arg2);
-extern _Bool _wrap_VecDouble_isEmpty_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_VecDouble_clear_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_VecDouble_add_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, double arg2);
-extern double _wrap_VecDouble_get_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_VecDouble_set_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_intgo arg2, double arg3);
-extern void _wrap_delete_VecDouble_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern _Bool _wrap_Correlator_hardCorrelate_SatHelper_cd0dc6289f5c3405(char arg1, char arg2);
-extern swig_intgo _wrap_Correlator_softCorrelate_SatHelper_cd0dc6289f5c3405(char arg1, char arg2);
-extern uintptr_t _wrap_new_Correlator_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_Correlator_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_Correlator_getHighestCorrelation_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_Correlator_getHighestCorrelationPosition_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_Correlator_getCorrelationWordNumber_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_Correlator_addWord__SWIG_0_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Correlator_addWord__SWIG_1_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_type_9 arg2);
-extern void _wrap_Correlator_correlate_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3);
-extern uintptr_t _wrap_new_Viterbi27__SWIG_0_SatHelper_cd0dc6289f5c3405(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_new_Viterbi27__SWIG_1_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern swig_intgo _wrap_Viterbi27_DecodedSize_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_Viterbi27_EncodedSize_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_Viterbi27_SetCalculateErrors_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, _Bool arg2);
-extern swig_intgo _wrap_Viterbi27_GetBER_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_Viterbi27_GetPercentBER_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern _Bool _wrap_Viterbi27_IsSSEMode_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_Viterbi27_decode_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3);
-extern void _wrap_Viterbi27_encode_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3);
-extern void _wrap_delete_Viterbi27_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_new_ReedSolomon_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_ReedSolomon_decode_ccsds_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2);
-extern swig_intgo _wrap_ReedSolomon_decode_rs8_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_ReedSolomon_deinterleave_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, char arg4, char arg5);
-extern void _wrap_ReedSolomon_interleave_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, char arg4, char arg5);
-extern void _wrap_ReedSolomon_SetCopyParityToOutput_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, _Bool arg2);
-extern void _wrap_delete_ReedSolomon_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_DEG_0_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_DEG_90_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_DEG_180_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_DEG_270_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_PacketFixer_fixPacket_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, _Bool arg5);
-extern uintptr_t _wrap_new_PacketFixer_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_PacketFixer_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_ScreenManager_GotoXY_SatHelper_cd0dc6289f5c3405(swig_intgo arg1, swig_intgo arg2);
-extern void _wrap_ScreenManager_Clear_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_new_ScreenManager_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_ScreenManager_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_IP_ANY_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_IP_LOCALHOST_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_IPAddress_localhost_get_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_IPAddress_anyAddress_get_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_new_IPAddress__SWIG_0_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_new_IPAddress__SWIG_1_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_new_IPAddress__SWIG_2_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_new_IPAddress__SWIG_3_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_new_IPAddress__SWIG_4_SatHelper_cd0dc6289f5c3405(char arg1, char arg2, char arg3, char arg4);
-extern uintptr_t _wrap_new_IPAddress__SWIG_5_SatHelper_cd0dc6289f5c3405(swig_type_10 arg1);
-extern uintptr_t _wrap_new_IPAddress__SWIG_6_SatHelper_cd0dc6289f5c3405(swig_type_11 arg1);
-extern swig_type_12 _wrap_IPAddress_ToString_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_IPAddress_ToUint32_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_IPAddress_ToInAddr_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern _Bool _wrap_IPAddress_equals_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_IPAddress_different_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_IPAddress_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_DeRandomizer_DeRandomize_SatHelper_cd0dc6289f5c3405(swig_voidp arg1, swig_intgo arg2);
-extern uintptr_t _wrap_new_DeRandomizer_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_DeRandomizer_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_Tools_swapEndianess_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern swig_intgo _wrap_Tools_getTimestamp_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_Tools_makedir_SatHelper_cd0dc6289f5c3405(swig_type_13 arg1);
-extern swig_type_14 _wrap_Tools_phase2complex_SatHelper_cd0dc6289f5c3405(float arg1);
-extern float _wrap_Tools_clip_SatHelper_cd0dc6289f5c3405(float arg1, float arg2);
-extern uintptr_t _wrap_new_Tools_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_Tools_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_DifferentialEncoding_nrzmDecode_SatHelper_cd0dc6289f5c3405(swig_voidp arg1, swig_intgo arg2);
-extern uintptr_t _wrap_new_DifferentialEncoding_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_DifferentialEncoding_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_new_AGC__SWIG_0_SatHelper_cd0dc6289f5c3405(float arg1, float arg2, float arg3, float arg4);
-extern uintptr_t _wrap_new_AGC__SWIG_1_SatHelper_cd0dc6289f5c3405(float arg1, float arg2, float arg3);
-extern uintptr_t _wrap_new_AGC__SWIG_2_SatHelper_cd0dc6289f5c3405(float arg1, float arg2);
-extern uintptr_t _wrap_new_AGC__SWIG_3_SatHelper_cd0dc6289f5c3405(float arg1);
-extern uintptr_t _wrap_new_AGC__SWIG_4_SatHelper_cd0dc6289f5c3405(void);
-extern float _wrap_AGC_GetRate_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_AGC_GetReference_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_AGC_GetGain_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_AGC_GetMaxGain_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_AGC_SetRate_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_AGC_SetReference_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_AGC_SetGain_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_AGC_SetMaxGain_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern swig_type_15 _wrap_AGC_scale_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_AGC_scaleN_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
-extern void _wrap_AGC_Work_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
-extern void _wrap_delete_AGC_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_new_ClockRecovery_SatHelper_cd0dc6289f5c3405(float arg1, float arg2, float arg3, float arg4, float arg5);
-extern void _wrap_delete_ClockRecovery_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_ClockRecovery_Work_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
-extern float _wrap_ClockRecovery_GetMu_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ClockRecovery_GetOmega_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ClockRecovery_GetGainMu_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ClockRecovery_GetGainOmega_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_ClockRecovery_SetGainMu_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ClockRecovery_SetGainOmega_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ClockRecovery_SetMu_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ClockRecovery_SetOmega_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern uintptr_t _wrap_new_ControlLoop_SatHelper_cd0dc6289f5c3405(float arg1, float arg2, float arg3);
-extern void _wrap_delete_ControlLoop_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_ControlLoop_SetLoopBandwidth_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_SetDampingFactor_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_SetAlpha_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_SetBeta_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_SetFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_Reset_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_ControlLoop_UpdateGains_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_ControlLoop_SetPhase_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_AdvanceLoop_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_SetRelativeMaxFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern void _wrap_ControlLoop_SetRelativeMinFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2);
-extern float _wrap_ControlLoop_GetLoopBandwidth_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ControlLoop_GetDampingFactor_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ControlLoop_GetAlpha_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ControlLoop_GetBeta_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ControlLoop_GetRelativeFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ControlLoop_GetPhase_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ControlLoop_GetMaxRelativeFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_ControlLoop_GetMinRelativeFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_ControlLoop_FrequencyLimit_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_ControlLoop_PhaseWrap_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_new_CostasLoop__SWIG_0_SatHelper_cd0dc6289f5c3405(float arg1, swig_intgo arg2);
-extern uintptr_t _wrap_new_CostasLoop__SWIG_1_SatHelper_cd0dc6289f5c3405(float arg1, swig_intgo arg2, float arg3, float arg4);
-extern void _wrap_delete_CostasLoop_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_CostasLoop_GetError_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_CostasLoop_GetFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern float _wrap_CostasLoop_GetFrequencyHz_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_CostasLoop_Reset_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_CostasLoop_Work__SWIG_0_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
-extern void _wrap_CostasLoop_Work__SWIG_1_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_voidp arg4, swig_intgo arg5);
-extern void _wrap_CostasLoop_SetLoopBandwidth_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_SetDampingFactor_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_SetAlpha_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_SetBeta_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_SetFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_UpdateGains_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern void _wrap_CostasLoop_SetPhase_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_AdvanceLoop_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_SetRelativeMaxFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern void _wrap_CostasLoop_SetRelativeMinFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base, float arg1);
-extern float _wrap_CostasLoop_GetLoopBandwidth_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern float _wrap_CostasLoop_GetDampingFactor_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern float _wrap_CostasLoop_GetAlpha_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern float _wrap_CostasLoop_GetBeta_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern float _wrap_CostasLoop_GetRelativeFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern float _wrap_CostasLoop_GetPhase_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern float _wrap_CostasLoop_GetMaxRelativeFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern float _wrap_CostasLoop_GetMinRelativeFrequency_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern void _wrap_CostasLoop_FrequencyLimit_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern void _wrap_CostasLoop_PhaseWrap_SatHelper_cd0dc6289f5c3405(uintptr_t _swig_base);
-extern swig_intgo _wrap_HAMMING_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_HANN_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_BLACKMAN_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_RECTANGULAR_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_KAISER_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_BLACKMAN_HARRIS_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_BARTLETT_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern swig_intgo _wrap_FLATTOP_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_FFTWindows_Rectangular_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_FFTWindows_Hamming_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_FFTWindows_Hanning_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_FFTWindows_Blackman_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_FFTWindows_BlackmanHarris__SWIG_0_SatHelper_cd0dc6289f5c3405(swig_intgo arg1, swig_intgo arg2);
-extern uintptr_t _wrap_FFTWindows_BlackmanHarris__SWIG_1_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_FFTWindows_FlatTop_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_FFTWindows_Kaiser_SatHelper_cd0dc6289f5c3405(swig_intgo arg1, double arg2);
-extern uintptr_t _wrap_FFTWindows_Bartlett_SatHelper_cd0dc6289f5c3405(swig_intgo arg1);
-extern uintptr_t _wrap_FFTWindows_MakeWindow_SatHelper_cd0dc6289f5c3405(swig_intgo arg1, swig_intgo arg2, float arg3);
-extern uintptr_t _wrap_new_FFTWindows_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_FFTWindows_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_Filters_RRC_SatHelper_cd0dc6289f5c3405(double arg1, double arg2, double arg3, double arg4, swig_intgo arg5);
-extern uintptr_t _wrap_Filters_lowPass_SatHelper_cd0dc6289f5c3405(double arg1, double arg2, double arg3, double arg4, swig_intgo arg5, double arg6);
-extern uintptr_t _wrap_new_Filters_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_Filters_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern uintptr_t _wrap_new_FirFilter_SatHelper_cd0dc6289f5c3405(swig_intgo arg1, uintptr_t arg2);
-extern void _wrap_delete_FirFilter_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_FirFilter_Work_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
-extern uintptr_t _wrap_new_MMSEFirInterpolator_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_MMSEFirInterpolator_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_MMSEFirInterpolator_GetNTaps_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_MMSEFirInterpolator_GetNSteps_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_type_16 _wrap_MMSEFirInterpolator_interpolate_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, float arg3);
-extern uintptr_t _wrap_new_FirKernel_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_delete_FirKernel_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_FirKernel_SetTaps_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_17 _wrap_FirKernel_filter_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_FirKernel_filterData_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_18 arg4);
-extern void _wrap_FirKernel_FilterDecimating_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_19 arg4, swig_intgo arg5);
-extern void _wrap_FirKernel_UpdateTap_SatHelper_cd0dc6289f5c3405(uintptr_t arg1, float arg2, swig_intgo arg3);
-extern uintptr_t _wrap_FirKernel_GetTaps_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_intgo _wrap_FirKernel_GetNTaps_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern swig_type_20 _wrap_Info_GetVersion_SatHelper_cd0dc6289f5c3405(void);
-extern swig_type_21 _wrap_Info_GetCompilationDate_SatHelper_cd0dc6289f5c3405(void);
-extern swig_type_22 _wrap_Info_GetCompilationTime_SatHelper_cd0dc6289f5c3405(void);
-extern swig_type_23 _wrap_Info_GetGitSHA1_SatHelper_cd0dc6289f5c3405(void);
-extern uintptr_t _wrap_new_Info_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_Info_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
-extern void _wrap_Extensions_hasFMA_set_SatHelper_cd0dc6289f5c3405(_Bool arg1);
-extern _Bool _wrap_Extensions_hasFMA_get_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_Extensions_hasSSE_set_SatHelper_cd0dc6289f5c3405(_Bool arg1);
-extern _Bool _wrap_Extensions_hasSSE_get_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_Extensions_hasSSE4_set_SatHelper_cd0dc6289f5c3405(_Bool arg1);
-extern _Bool _wrap_Extensions_hasSSE4_get_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_Extensions_hasAVX_set_SatHelper_cd0dc6289f5c3405(_Bool arg1);
-extern _Bool _wrap_Extensions_hasAVX_get_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_Extensions_initialized_set_SatHelper_cd0dc6289f5c3405(_Bool arg1);
-extern _Bool _wrap_Extensions_initialized_get_SatHelper_cd0dc6289f5c3405(void);
-extern float _wrap_Extensions_FMA_SatHelper_cd0dc6289f5c3405(float arg1, float arg2, float arg3);
-extern uintptr_t _wrap_new_Extensions_SatHelper_cd0dc6289f5c3405(void);
-extern void _wrap_delete_Extensions_SatHelper_cd0dc6289f5c3405(uintptr_t arg1);
+extern void _wrap_Swig_free_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_new_VecFloat__SWIG_0_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_new_VecFloat__SWIG_1_SatHelper_907d18dc11b8d801(swig_type_1 arg1);
+extern swig_type_2 _wrap_VecFloat_size_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_type_3 _wrap_VecFloat_capacity_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_VecFloat_reserve_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_type_4 arg2);
+extern _Bool _wrap_VecFloat_isEmpty_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_VecFloat_clear_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_VecFloat_add_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern float _wrap_VecFloat_get_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_VecFloat_set_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_intgo arg2, float arg3);
+extern void _wrap_delete_VecFloat_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_new_VecDouble__SWIG_0_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_new_VecDouble__SWIG_1_SatHelper_907d18dc11b8d801(swig_type_5 arg1);
+extern swig_type_6 _wrap_VecDouble_size_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_type_7 _wrap_VecDouble_capacity_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_VecDouble_reserve_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_type_8 arg2);
+extern _Bool _wrap_VecDouble_isEmpty_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_VecDouble_clear_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_VecDouble_add_SatHelper_907d18dc11b8d801(uintptr_t arg1, double arg2);
+extern double _wrap_VecDouble_get_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_VecDouble_set_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_intgo arg2, double arg3);
+extern void _wrap_delete_VecDouble_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern _Bool _wrap_Correlator_hardCorrelate_SatHelper_907d18dc11b8d801(char arg1, char arg2);
+extern swig_intgo _wrap_Correlator_softCorrelate_SatHelper_907d18dc11b8d801(char arg1, char arg2);
+extern uintptr_t _wrap_new_Correlator_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_Correlator_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_Correlator_getHighestCorrelation_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_Correlator_getHighestCorrelationPosition_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_Correlator_getCorrelationWordNumber_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_Correlator_addWord__SWIG_0_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_Correlator_addWord__SWIG_1_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_type_9 arg2);
+extern void _wrap_Correlator_correlate_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3);
+extern uintptr_t _wrap_new_Viterbi27__SWIG_0_SatHelper_907d18dc11b8d801(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_new_Viterbi27__SWIG_1_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern swig_intgo _wrap_Viterbi27_DecodedSize_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_Viterbi27_EncodedSize_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_Viterbi27_SetCalculateErrors_SatHelper_907d18dc11b8d801(uintptr_t arg1, _Bool arg2);
+extern swig_intgo _wrap_Viterbi27_GetBER_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_Viterbi27_GetPercentBER_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern _Bool _wrap_Viterbi27_IsSSEMode_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_Viterbi27_decode_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3);
+extern void _wrap_Viterbi27_encode_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3);
+extern void _wrap_delete_Viterbi27_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_new_ReedSolomon_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_ReedSolomon_decode_ccsds_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2);
+extern swig_intgo _wrap_ReedSolomon_decode_rs8_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_ReedSolomon_deinterleave_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, char arg4, char arg5);
+extern void _wrap_ReedSolomon_interleave_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, char arg4, char arg5);
+extern void _wrap_ReedSolomon_SetCopyParityToOutput_SatHelper_907d18dc11b8d801(uintptr_t arg1, _Bool arg2);
+extern void _wrap_delete_ReedSolomon_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_DEG_0_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_DEG_90_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_DEG_180_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_DEG_270_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_PacketFixer_fixPacket_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, _Bool arg5);
+extern uintptr_t _wrap_new_PacketFixer_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_PacketFixer_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_ScreenManager_GotoXY_SatHelper_907d18dc11b8d801(swig_intgo arg1, swig_intgo arg2);
+extern void _wrap_ScreenManager_Clear_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_new_ScreenManager_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_ScreenManager_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_IP_ANY_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_IP_LOCALHOST_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_IPAddress_localhost_get_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_IPAddress_anyAddress_get_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_new_IPAddress__SWIG_0_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_new_IPAddress__SWIG_1_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_new_IPAddress__SWIG_2_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_new_IPAddress__SWIG_3_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_new_IPAddress__SWIG_4_SatHelper_907d18dc11b8d801(char arg1, char arg2, char arg3, char arg4);
+extern uintptr_t _wrap_new_IPAddress__SWIG_5_SatHelper_907d18dc11b8d801(swig_type_10 arg1);
+extern uintptr_t _wrap_new_IPAddress__SWIG_6_SatHelper_907d18dc11b8d801(swig_type_11 arg1);
+extern swig_type_12 _wrap_IPAddress_ToString_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_IPAddress_ToUint32_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_IPAddress_ToInAddr_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern _Bool _wrap_IPAddress_equals_SatHelper_907d18dc11b8d801(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_IPAddress_different_SatHelper_907d18dc11b8d801(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_IPAddress_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_DeRandomizer_DeRandomize_SatHelper_907d18dc11b8d801(swig_voidp arg1, swig_intgo arg2);
+extern uintptr_t _wrap_new_DeRandomizer_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_DeRandomizer_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_Tools_swapEndianess_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern swig_intgo _wrap_Tools_getTimestamp_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_Tools_makedir_SatHelper_907d18dc11b8d801(swig_type_13 arg1);
+extern swig_type_14 _wrap_Tools_phase2complex_SatHelper_907d18dc11b8d801(float arg1);
+extern float _wrap_Tools_clip_SatHelper_907d18dc11b8d801(float arg1, float arg2);
+extern uintptr_t _wrap_new_Tools_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_Tools_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_DifferentialEncoding_nrzmDecode_SatHelper_907d18dc11b8d801(swig_voidp arg1, swig_intgo arg2);
+extern uintptr_t _wrap_new_DifferentialEncoding_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_DifferentialEncoding_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_new_AGC__SWIG_0_SatHelper_907d18dc11b8d801(float arg1, float arg2, float arg3, float arg4);
+extern uintptr_t _wrap_new_AGC__SWIG_1_SatHelper_907d18dc11b8d801(float arg1, float arg2, float arg3);
+extern uintptr_t _wrap_new_AGC__SWIG_2_SatHelper_907d18dc11b8d801(float arg1, float arg2);
+extern uintptr_t _wrap_new_AGC__SWIG_3_SatHelper_907d18dc11b8d801(float arg1);
+extern uintptr_t _wrap_new_AGC__SWIG_4_SatHelper_907d18dc11b8d801(void);
+extern float _wrap_AGC_GetRate_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_AGC_GetReference_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_AGC_GetGain_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_AGC_GetMaxGain_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_AGC_SetRate_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_AGC_SetReference_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_AGC_SetGain_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_AGC_SetMaxGain_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern swig_type_15 _wrap_AGC_scale_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_AGC_scaleN_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
+extern void _wrap_AGC_Work_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
+extern void _wrap_delete_AGC_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_new_ClockRecovery_SatHelper_907d18dc11b8d801(float arg1, float arg2, float arg3, float arg4, float arg5);
+extern void _wrap_delete_ClockRecovery_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_ClockRecovery_Work_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
+extern float _wrap_ClockRecovery_GetMu_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ClockRecovery_GetOmega_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ClockRecovery_GetGainMu_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ClockRecovery_GetGainOmega_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_ClockRecovery_SetGainMu_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ClockRecovery_SetGainOmega_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ClockRecovery_SetMu_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ClockRecovery_SetOmega_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern uintptr_t _wrap_new_ControlLoop_SatHelper_907d18dc11b8d801(float arg1, float arg2, float arg3);
+extern void _wrap_delete_ControlLoop_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_ControlLoop_SetLoopBandwidth_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_SetDampingFactor_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_SetAlpha_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_SetBeta_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_SetFrequency_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_Reset_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_ControlLoop_UpdateGains_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_ControlLoop_SetPhase_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_AdvanceLoop_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_SetRelativeMaxFrequency_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern void _wrap_ControlLoop_SetRelativeMinFrequency_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2);
+extern float _wrap_ControlLoop_GetLoopBandwidth_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ControlLoop_GetDampingFactor_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ControlLoop_GetAlpha_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ControlLoop_GetBeta_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ControlLoop_GetRelativeFrequency_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ControlLoop_GetPhase_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ControlLoop_GetMaxRelativeFrequency_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_ControlLoop_GetMinRelativeFrequency_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_ControlLoop_FrequencyLimit_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_ControlLoop_PhaseWrap_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_new_CostasLoop__SWIG_0_SatHelper_907d18dc11b8d801(float arg1, swig_intgo arg2);
+extern uintptr_t _wrap_new_CostasLoop__SWIG_1_SatHelper_907d18dc11b8d801(float arg1, swig_intgo arg2, float arg3, float arg4);
+extern void _wrap_delete_CostasLoop_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_CostasLoop_GetError_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_CostasLoop_GetFrequency_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern float _wrap_CostasLoop_GetFrequencyHz_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_CostasLoop_Reset_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_CostasLoop_Work__SWIG_0_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
+extern void _wrap_CostasLoop_Work__SWIG_1_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_voidp arg4, swig_intgo arg5);
+extern void _wrap_CostasLoop_SetLoopBandwidth_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_SetDampingFactor_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_SetAlpha_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_SetBeta_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_SetFrequency_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_UpdateGains_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern void _wrap_CostasLoop_SetPhase_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_AdvanceLoop_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_SetRelativeMaxFrequency_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern void _wrap_CostasLoop_SetRelativeMinFrequency_SatHelper_907d18dc11b8d801(uintptr_t _swig_base, float arg1);
+extern float _wrap_CostasLoop_GetLoopBandwidth_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern float _wrap_CostasLoop_GetDampingFactor_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern float _wrap_CostasLoop_GetAlpha_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern float _wrap_CostasLoop_GetBeta_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern float _wrap_CostasLoop_GetRelativeFrequency_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern float _wrap_CostasLoop_GetPhase_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern float _wrap_CostasLoop_GetMaxRelativeFrequency_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern float _wrap_CostasLoop_GetMinRelativeFrequency_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern void _wrap_CostasLoop_FrequencyLimit_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern void _wrap_CostasLoop_PhaseWrap_SatHelper_907d18dc11b8d801(uintptr_t _swig_base);
+extern swig_intgo _wrap_HAMMING_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_HANN_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_BLACKMAN_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_RECTANGULAR_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_KAISER_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_BLACKMAN_HARRIS_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_BARTLETT_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern swig_intgo _wrap_FLATTOP_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_FFTWindows_Rectangular_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_FFTWindows_Hamming_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_FFTWindows_Hanning_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_FFTWindows_Blackman_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_FFTWindows_BlackmanHarris__SWIG_0_SatHelper_907d18dc11b8d801(swig_intgo arg1, swig_intgo arg2);
+extern uintptr_t _wrap_FFTWindows_BlackmanHarris__SWIG_1_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_FFTWindows_FlatTop_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_FFTWindows_Kaiser_SatHelper_907d18dc11b8d801(swig_intgo arg1, double arg2);
+extern uintptr_t _wrap_FFTWindows_Bartlett_SatHelper_907d18dc11b8d801(swig_intgo arg1);
+extern uintptr_t _wrap_FFTWindows_MakeWindow_SatHelper_907d18dc11b8d801(swig_intgo arg1, swig_intgo arg2, float arg3);
+extern uintptr_t _wrap_new_FFTWindows_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_FFTWindows_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_Filters_RRC_SatHelper_907d18dc11b8d801(double arg1, double arg2, double arg3, double arg4, swig_intgo arg5);
+extern uintptr_t _wrap_Filters_lowPass_SatHelper_907d18dc11b8d801(double arg1, double arg2, double arg3, double arg4, swig_intgo arg5, double arg6);
+extern uintptr_t _wrap_new_Filters_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_Filters_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern uintptr_t _wrap_new_FirFilter_SatHelper_907d18dc11b8d801(swig_intgo arg1, uintptr_t arg2);
+extern void _wrap_delete_FirFilter_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_FirFilter_Work_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_intgo arg4);
+extern uintptr_t _wrap_new_MMSEFirInterpolator_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_MMSEFirInterpolator_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_MMSEFirInterpolator_GetNTaps_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_MMSEFirInterpolator_GetNSteps_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_type_16 _wrap_MMSEFirInterpolator_interpolate_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, float arg3);
+extern uintptr_t _wrap_new_FirKernel_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_delete_FirKernel_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_FirKernel_SetTaps_SatHelper_907d18dc11b8d801(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_17 _wrap_FirKernel_filter_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_FirKernel_filterData_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_18 arg4);
+extern void _wrap_FirKernel_FilterDecimating_SatHelper_907d18dc11b8d801(uintptr_t arg1, swig_voidp arg2, swig_voidp arg3, swig_type_19 arg4, swig_intgo arg5);
+extern void _wrap_FirKernel_UpdateTap_SatHelper_907d18dc11b8d801(uintptr_t arg1, float arg2, swig_intgo arg3);
+extern uintptr_t _wrap_FirKernel_GetTaps_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_intgo _wrap_FirKernel_GetNTaps_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern swig_type_20 _wrap_Info_GetVersion_SatHelper_907d18dc11b8d801(void);
+extern swig_type_21 _wrap_Info_GetCompilationDate_SatHelper_907d18dc11b8d801(void);
+extern swig_type_22 _wrap_Info_GetCompilationTime_SatHelper_907d18dc11b8d801(void);
+extern swig_type_23 _wrap_Info_GetGitSHA1_SatHelper_907d18dc11b8d801(void);
+extern uintptr_t _wrap_new_Info_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_Info_SatHelper_907d18dc11b8d801(uintptr_t arg1);
+extern void _wrap_Extensions_hasFMA_set_SatHelper_907d18dc11b8d801(_Bool arg1);
+extern _Bool _wrap_Extensions_hasFMA_get_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_Extensions_hasSSE_set_SatHelper_907d18dc11b8d801(_Bool arg1);
+extern _Bool _wrap_Extensions_hasSSE_get_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_Extensions_hasSSE4_set_SatHelper_907d18dc11b8d801(_Bool arg1);
+extern _Bool _wrap_Extensions_hasSSE4_get_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_Extensions_hasAVX_set_SatHelper_907d18dc11b8d801(_Bool arg1);
+extern _Bool _wrap_Extensions_hasAVX_get_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_Extensions_initialized_set_SatHelper_907d18dc11b8d801(_Bool arg1);
+extern _Bool _wrap_Extensions_initialized_get_SatHelper_907d18dc11b8d801(void);
+extern float _wrap_Extensions_FMA_SatHelper_907d18dc11b8d801(float arg1, float arg2, float arg3);
+extern uintptr_t _wrap_new_Extensions_SatHelper_907d18dc11b8d801(void);
+extern void _wrap_delete_Extensions_SatHelper_907d18dc11b8d801(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -295,37 +295,39 @@ import "unsafe"
 import _ "runtime/cgo"
 import "sync"
 
+
 type _ unsafe.Pointer
+
+
 
 var Swig_escape_always_false bool
 var Swig_escape_val interface{}
 
+
 type _swig_fnptr *byte
 type _swig_memberptr *byte
 
+
 type _ sync.Mutex
 
-type swig_gostring struct {
-	p uintptr
-	n int
-}
 
+type swig_gostring struct { p uintptr; n int }
 func swigCopyString(s string) string {
-	p := *(*swig_gostring)(unsafe.Pointer(&s))
-	r := string((*[0x7fffffff]byte)(unsafe.Pointer(p.p))[:p.n])
-	Swig_free(p.p)
-	return r
+  p := *(*swig_gostring)(unsafe.Pointer(&s))
+  r := string((*[0x7fffffff]byte)(unsafe.Pointer(p.p))[:p.n])
+  Swig_free(p.p)
+  return r
 }
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -340,14 +342,14 @@ func (p SwigcptrVecFloat) SwigIsVecFloat() {
 
 func NewVecFloat__SWIG_0() (_swig_ret VecFloat) {
 	var swig_r VecFloat
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_new_VecFloat__SWIG_0_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_new_VecFloat__SWIG_0_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func NewVecFloat__SWIG_1(arg1 int64) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_new_VecFloat__SWIG_1_SatHelper_cd0dc6289f5c3405(C.swig_type_1(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_new_VecFloat__SWIG_1_SatHelper_907d18dc11b8d801(C.swig_type_1(_swig_i_0))))
 	return swig_r
 }
 
@@ -365,46 +367,46 @@ func NewVecFloat(a ...interface{}) VecFloat {
 func (arg1 SwigcptrVecFloat) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VecFloat_size_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VecFloat_size_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVecFloat) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VecFloat_capacity_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VecFloat_capacity_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVecFloat) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VecFloat_reserve_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
+	C._wrap_VecFloat_reserve_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
 }
 
 func (arg1 SwigcptrVecFloat) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_VecFloat_isEmpty_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_VecFloat_isEmpty_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVecFloat) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_VecFloat_clear_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_VecFloat_clear_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVecFloat) Add(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VecFloat_add_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_VecFloat_add_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrVecFloat) Get(arg2 int) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_VecFloat_get_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_VecFloat_get_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -412,12 +414,12 @@ func (arg1 SwigcptrVecFloat) Set(arg2 int, arg3 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_VecFloat_set_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
+	C._wrap_VecFloat_set_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
 }
 
 func DeleteVecFloat(arg1 VecFloat) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_VecFloat_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_VecFloat_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type VecFloat interface {
@@ -444,14 +446,14 @@ func (p SwigcptrVecDouble) SwigIsVecDouble() {
 
 func NewVecDouble__SWIG_0() (_swig_ret VecDouble) {
 	var swig_r VecDouble
-	swig_r = (VecDouble)(SwigcptrVecDouble(C._wrap_new_VecDouble__SWIG_0_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (VecDouble)(SwigcptrVecDouble(C._wrap_new_VecDouble__SWIG_0_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func NewVecDouble__SWIG_1(arg1 int64) (_swig_ret VecDouble) {
 	var swig_r VecDouble
 	_swig_i_0 := arg1
-	swig_r = (VecDouble)(SwigcptrVecDouble(C._wrap_new_VecDouble__SWIG_1_SatHelper_cd0dc6289f5c3405(C.swig_type_5(_swig_i_0))))
+	swig_r = (VecDouble)(SwigcptrVecDouble(C._wrap_new_VecDouble__SWIG_1_SatHelper_907d18dc11b8d801(C.swig_type_5(_swig_i_0))))
 	return swig_r
 }
 
@@ -469,46 +471,46 @@ func NewVecDouble(a ...interface{}) VecDouble {
 func (arg1 SwigcptrVecDouble) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VecDouble_size_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VecDouble_size_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVecDouble) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VecDouble_capacity_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VecDouble_capacity_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVecDouble) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VecDouble_reserve_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
+	C._wrap_VecDouble_reserve_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
 }
 
 func (arg1 SwigcptrVecDouble) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_VecDouble_isEmpty_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_VecDouble_isEmpty_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVecDouble) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_VecDouble_clear_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_VecDouble_clear_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVecDouble) Add(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VecDouble_add_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_VecDouble_add_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrVecDouble) Get(arg2 int) (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_VecDouble_get_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float64)(C._wrap_VecDouble_get_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -516,12 +518,12 @@ func (arg1 SwigcptrVecDouble) Set(arg2 int, arg3 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_VecDouble_set_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.double(_swig_i_2))
+	C._wrap_VecDouble_set_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.double(_swig_i_2))
 }
 
 func DeleteVecDouble(arg1 VecDouble) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_VecDouble_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_VecDouble_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type VecDouble interface {
@@ -550,7 +552,7 @@ func CorrelatorHardCorrelate(arg1 byte, arg2 byte) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Correlator_hardCorrelate_SatHelper_cd0dc6289f5c3405(C.char(_swig_i_0), C.char(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Correlator_hardCorrelate_SatHelper_907d18dc11b8d801(C.char(_swig_i_0), C.char(_swig_i_1)))
 	return swig_r
 }
 
@@ -558,52 +560,52 @@ func CorrelatorSoftCorrelate(arg1 byte, arg2 byte) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_Correlator_softCorrelate_SatHelper_cd0dc6289f5c3405(C.char(_swig_i_0), C.char(_swig_i_1)))
+	swig_r = (uint)(C._wrap_Correlator_softCorrelate_SatHelper_907d18dc11b8d801(C.char(_swig_i_0), C.char(_swig_i_1)))
 	return swig_r
 }
 
 func NewCorrelator() (_swig_ret Correlator) {
 	var swig_r Correlator
-	swig_r = (Correlator)(SwigcptrCorrelator(C._wrap_new_Correlator_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (Correlator)(SwigcptrCorrelator(C._wrap_new_Correlator_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteCorrelator(arg1 Correlator) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Correlator_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Correlator_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrCorrelator) GetHighestCorrelation() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Correlator_getHighestCorrelation_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Correlator_getHighestCorrelation_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrCorrelator) GetHighestCorrelationPosition() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Correlator_getHighestCorrelationPosition_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Correlator_getHighestCorrelationPosition_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrCorrelator) GetCorrelationWordNumber() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Correlator_getCorrelationWordNumber_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Correlator_getCorrelationWordNumber_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrCorrelator) AddWord__SWIG_0(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Correlator_addWord__SWIG_0_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Correlator_addWord__SWIG_0_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrCorrelator) AddWord__SWIG_1(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Correlator_addWord__SWIG_1_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_type_9(_swig_i_1))
+	C._wrap_Correlator_addWord__SWIG_1_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_type_9(_swig_i_1))
 }
 
 func (p SwigcptrCorrelator) AddWord(a ...interface{}) {
@@ -627,7 +629,7 @@ func (arg1 SwigcptrCorrelator) Correlate(arg2 *byte, arg3 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Correlator_correlate_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Correlator_correlate_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 type Correlator interface {
@@ -642,7 +644,6 @@ type Correlator interface {
 
 const X_VITERBI27_POLYA int = 0x4F
 const X_VITERBI27_POLYB int = 0x6D
-
 type SwigcptrViterbi27 uintptr
 
 func (p SwigcptrViterbi27) Swigcptr() uintptr {
@@ -657,14 +658,14 @@ func NewViterbi27__SWIG_0(arg1 int, arg2 int, arg3 int) (_swig_ret Viterbi27) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Viterbi27)(SwigcptrViterbi27(C._wrap_new_Viterbi27__SWIG_0_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Viterbi27)(SwigcptrViterbi27(C._wrap_new_Viterbi27__SWIG_0_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
 func NewViterbi27__SWIG_1(arg1 int) (_swig_ret Viterbi27) {
 	var swig_r Viterbi27
 	_swig_i_0 := arg1
-	swig_r = (Viterbi27)(SwigcptrViterbi27(C._wrap_new_Viterbi27__SWIG_1_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (Viterbi27)(SwigcptrViterbi27(C._wrap_new_Viterbi27__SWIG_1_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
@@ -682,41 +683,41 @@ func NewViterbi27(a ...interface{}) Viterbi27 {
 func (arg1 SwigcptrViterbi27) DecodedSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Viterbi27_DecodedSize_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Viterbi27_DecodedSize_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrViterbi27) EncodedSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Viterbi27_EncodedSize_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Viterbi27_EncodedSize_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrViterbi27) SetCalculateErrors(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Viterbi27_SetCalculateErrors_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Viterbi27_SetCalculateErrors_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrViterbi27) GetBER() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Viterbi27_GetBER_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Viterbi27_GetBER_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrViterbi27) GetPercentBER() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Viterbi27_GetPercentBER_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Viterbi27_GetPercentBER_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrViterbi27) IsSSEMode() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Viterbi27_IsSSEMode_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Viterbi27_IsSSEMode_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -724,19 +725,19 @@ func (arg1 SwigcptrViterbi27) Decode(arg2 *byte, arg3 *byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Viterbi27_decode_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2))
+	C._wrap_Viterbi27_decode_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2))
 }
 
 func (arg1 SwigcptrViterbi27) Encode(arg2 *byte, arg3 *byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Viterbi27_encode_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2))
+	C._wrap_Viterbi27_encode_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2))
 }
 
 func DeleteViterbi27(arg1 Viterbi27) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Viterbi27_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Viterbi27_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type Viterbi27 interface {
@@ -763,7 +764,7 @@ func (p SwigcptrReedSolomon) SwigIsReedSolomon() {
 
 func NewReedSolomon() (_swig_ret ReedSolomon) {
 	var swig_r ReedSolomon
-	swig_r = (ReedSolomon)(SwigcptrReedSolomon(C._wrap_new_ReedSolomon_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (ReedSolomon)(SwigcptrReedSolomon(C._wrap_new_ReedSolomon_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
@@ -771,7 +772,7 @@ func (arg1 SwigcptrReedSolomon) Decode_ccsds(arg2 *byte) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_ReedSolomon_decode_ccsds_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
+	swig_r = (uint)(C._wrap_ReedSolomon_decode_ccsds_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
 }
 
@@ -779,7 +780,7 @@ func (arg1 SwigcptrReedSolomon) Decode_rs8(arg2 *byte) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_ReedSolomon_decode_rs8_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
+	swig_r = (uint)(C._wrap_ReedSolomon_decode_rs8_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
 }
 
@@ -789,7 +790,7 @@ func (arg1 SwigcptrReedSolomon) Deinterleave(arg2 *byte, arg3 *byte, arg4 byte, 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_ReedSolomon_deinterleave_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.char(_swig_i_3), C.char(_swig_i_4))
+	C._wrap_ReedSolomon_deinterleave_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.char(_swig_i_3), C.char(_swig_i_4))
 }
 
 func (arg1 SwigcptrReedSolomon) Interleave(arg2 *byte, arg3 *byte, arg4 byte, arg5 byte) {
@@ -798,18 +799,18 @@ func (arg1 SwigcptrReedSolomon) Interleave(arg2 *byte, arg3 *byte, arg4 byte, ar
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_ReedSolomon_interleave_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.char(_swig_i_3), C.char(_swig_i_4))
+	C._wrap_ReedSolomon_interleave_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.char(_swig_i_3), C.char(_swig_i_4))
 }
 
 func (arg1 SwigcptrReedSolomon) SetCopyParityToOutput(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ReedSolomon_SetCopyParityToOutput_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_ReedSolomon_SetCopyParityToOutput_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func DeleteReedSolomon(arg1 ReedSolomon) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ReedSolomon_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ReedSolomon_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type ReedSolomon interface {
@@ -823,39 +824,34 @@ type ReedSolomon interface {
 }
 
 type SatHelperPhaseShift int
-
 func _swig_getDEG_0() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
-	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_0_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_0_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var DEG_0 SatHelperPhaseShift = _swig_getDEG_0()
-
 func _swig_getDEG_90() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
-	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_90_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_90_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var DEG_90 SatHelperPhaseShift = _swig_getDEG_90()
-
 func _swig_getDEG_180() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
-	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_180_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_180_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var DEG_180 SatHelperPhaseShift = _swig_getDEG_180()
-
 func _swig_getDEG_270() (_swig_ret SatHelperPhaseShift) {
 	var swig_r SatHelperPhaseShift
-	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_270_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperPhaseShift)(C._wrap_DEG_270_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var DEG_270 SatHelperPhaseShift = _swig_getDEG_270()
-
 type SwigcptrPacketFixer uintptr
 
 func (p SwigcptrPacketFixer) Swigcptr() uintptr {
@@ -871,18 +867,18 @@ func (arg1 SwigcptrPacketFixer) FixPacket(arg2 *byte, arg3 uint, arg4 SatHelperP
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_PacketFixer_fixPacket_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C._Bool(_swig_i_4))
+	C._wrap_PacketFixer_fixPacket_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C._Bool(_swig_i_4))
 }
 
 func NewPacketFixer() (_swig_ret PacketFixer) {
 	var swig_r PacketFixer
-	swig_r = (PacketFixer)(SwigcptrPacketFixer(C._wrap_new_PacketFixer_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (PacketFixer)(SwigcptrPacketFixer(C._wrap_new_PacketFixer_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeletePacketFixer(arg1 PacketFixer) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_PacketFixer_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_PacketFixer_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type PacketFixer interface {
@@ -903,22 +899,22 @@ func (p SwigcptrScreenManager) SwigIsScreenManager() {
 func ScreenManagerGotoXY(arg1 int, arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ScreenManager_GotoXY_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ScreenManager_GotoXY_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func ScreenManagerClear() {
-	C._wrap_ScreenManager_Clear_SatHelper_cd0dc6289f5c3405()
+	C._wrap_ScreenManager_Clear_SatHelper_907d18dc11b8d801()
 }
 
 func NewScreenManager() (_swig_ret ScreenManager) {
 	var swig_r ScreenManager
-	swig_r = (ScreenManager)(SwigcptrScreenManager(C._wrap_new_ScreenManager_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (ScreenManager)(SwigcptrScreenManager(C._wrap_new_ScreenManager_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteScreenManager(arg1 ScreenManager) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ScreenManager_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ScreenManager_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type ScreenManager interface {
@@ -927,23 +923,20 @@ type ScreenManager interface {
 }
 
 type SatHelperPresetIpAddress int
-
 func _swig_getIP_ANY() (_swig_ret SatHelperPresetIpAddress) {
 	var swig_r SatHelperPresetIpAddress
-	swig_r = (SatHelperPresetIpAddress)(C._wrap_IP_ANY_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperPresetIpAddress)(C._wrap_IP_ANY_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var IP_ANY SatHelperPresetIpAddress = _swig_getIP_ANY()
-
 func _swig_getIP_LOCALHOST() (_swig_ret SatHelperPresetIpAddress) {
 	var swig_r SatHelperPresetIpAddress
-	swig_r = (SatHelperPresetIpAddress)(C._wrap_IP_LOCALHOST_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperPresetIpAddress)(C._wrap_IP_LOCALHOST_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var IP_LOCALHOST SatHelperPresetIpAddress = _swig_getIP_LOCALHOST()
-
 type SwigcptrIPAddress uintptr
 
 func (p SwigcptrIPAddress) Swigcptr() uintptr {
@@ -955,40 +948,40 @@ func (p SwigcptrIPAddress) SwigIsIPAddress() {
 
 func GetIPAddressLocalhost() (_swig_ret IPAddress) {
 	var swig_r IPAddress
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_IPAddress_localhost_get_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_IPAddress_localhost_get_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func GetIPAddressAnyAddress() (_swig_ret IPAddress) {
 	var swig_r IPAddress
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_IPAddress_anyAddress_get_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_IPAddress_anyAddress_get_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func NewIPAddress__SWIG_0() (_swig_ret IPAddress) {
 	var swig_r IPAddress
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_0_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_0_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func NewIPAddress__SWIG_1(arg1 SatHelperPresetIpAddress) (_swig_ret IPAddress) {
 	var swig_r IPAddress
 	_swig_i_0 := arg1
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_1_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_1_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func NewIPAddress__SWIG_2(arg1 uint) (_swig_ret IPAddress) {
 	var swig_r IPAddress
 	_swig_i_0 := arg1
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_2_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_2_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func NewIPAddress__SWIG_3(arg1 In_addr) (_swig_ret IPAddress) {
 	var swig_r IPAddress
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_3_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_3_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -998,14 +991,14 @@ func NewIPAddress__SWIG_4(arg1 byte, arg2 byte, arg3 byte, arg4 byte) (_swig_ret
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_4_SatHelper_cd0dc6289f5c3405(C.char(_swig_i_0), C.char(_swig_i_1), C.char(_swig_i_2), C.char(_swig_i_3))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_4_SatHelper_907d18dc11b8d801(C.char(_swig_i_0), C.char(_swig_i_1), C.char(_swig_i_2), C.char(_swig_i_3))))
 	return swig_r
 }
 
 func NewIPAddress__SWIG_5(arg1 string) (_swig_ret IPAddress) {
 	var swig_r IPAddress
 	_swig_i_0 := arg1
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_5_SatHelper_cd0dc6289f5c3405(*(*C.swig_type_10)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_5_SatHelper_907d18dc11b8d801(*(*C.swig_type_10)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1015,7 +1008,7 @@ func NewIPAddress__SWIG_5(arg1 string) (_swig_ret IPAddress) {
 func NewIPAddress__SWIG_6(arg1 string) (_swig_ret IPAddress) {
 	var swig_r IPAddress
 	_swig_i_0 := arg1
-	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_6_SatHelper_cd0dc6289f5c3405(*(*C.swig_type_11)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (IPAddress)(SwigcptrIPAddress(C._wrap_new_IPAddress__SWIG_6_SatHelper_907d18dc11b8d801(*(*C.swig_type_11)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1067,24 +1060,24 @@ check_5:
 func (arg1 SwigcptrIPAddress) ToString() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_IPAddress_ToString_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_IPAddress_ToString_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
-	swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrIPAddress) ToUint32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_IPAddress_ToUint32_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_IPAddress_ToUint32_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrIPAddress) ToInAddr() (_swig_ret In_addr) {
 	var swig_r In_addr
 	_swig_i_0 := arg1
-	swig_r = (In_addr)(SwigcptrIn_addr(C._wrap_IPAddress_ToInAddr_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))))
+	swig_r = (In_addr)(SwigcptrIn_addr(C._wrap_IPAddress_ToInAddr_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1092,7 +1085,7 @@ func (arg1 SwigcptrIPAddress) Equals(arg2 IPAddress) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_IPAddress_equals_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_IPAddress_equals_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -1100,13 +1093,13 @@ func (arg1 SwigcptrIPAddress) Different(arg2 IPAddress) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_IPAddress_different_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_IPAddress_different_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
 func DeleteIPAddress(arg1 IPAddress) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_IPAddress_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_IPAddress_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type IPAddress interface {
@@ -1131,18 +1124,18 @@ func (p SwigcptrDeRandomizer) SwigIsDeRandomizer() {
 func DeRandomizerDeRandomize(arg1 *byte, arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DeRandomizer_DeRandomize_SatHelper_cd0dc6289f5c3405(C.swig_voidp(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_DeRandomizer_DeRandomize_SatHelper_907d18dc11b8d801(C.swig_voidp(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func NewDeRandomizer() (_swig_ret DeRandomizer) {
 	var swig_r DeRandomizer
-	swig_r = (DeRandomizer)(SwigcptrDeRandomizer(C._wrap_new_DeRandomizer_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (DeRandomizer)(SwigcptrDeRandomizer(C._wrap_new_DeRandomizer_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteDeRandomizer(arg1 DeRandomizer) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_DeRandomizer_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_DeRandomizer_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type DeRandomizer interface {
@@ -1162,19 +1155,19 @@ func (p SwigcptrTools) SwigIsTools() {
 func ToolsSwapEndianess(arg1 uint) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Tools_swapEndianess_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Tools_swapEndianess_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func ToolsGetTimestamp() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_Tools_getTimestamp_SatHelper_cd0dc6289f5c3405())
+	swig_r = (uint)(C._wrap_Tools_getTimestamp_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 func ToolsMakedir(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_Tools_makedir_SatHelper_cd0dc6289f5c3405(*(*C.swig_type_13)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_Tools_makedir_SatHelper_907d18dc11b8d801(*(*C.swig_type_13)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1183,7 +1176,7 @@ func ToolsMakedir(arg1 string) {
 func ToolsPhase2complex(arg1 float32) (_swig_ret complex64) {
 	var swig_r complex64
 	_swig_i_0 := arg1
-	swig_r = (complex64)(C._wrap_Tools_phase2complex_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0)))
+	swig_r = (complex64)(C._wrap_Tools_phase2complex_SatHelper_907d18dc11b8d801(C.float(_swig_i_0)))
 	return swig_r
 }
 
@@ -1191,19 +1184,19 @@ func ToolsClip(arg1 float32, arg2 float32) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_Tools_clip_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_Tools_clip_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
 func NewTools() (_swig_ret Tools) {
 	var swig_r Tools
-	swig_r = (Tools)(SwigcptrTools(C._wrap_new_Tools_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (Tools)(SwigcptrTools(C._wrap_new_Tools_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteTools(arg1 Tools) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Tools_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Tools_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type Tools interface {
@@ -1223,18 +1216,18 @@ func (p SwigcptrDifferentialEncoding) SwigIsDifferentialEncoding() {
 func DifferentialEncodingNrzmDecode(arg1 *byte, arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DifferentialEncoding_nrzmDecode_SatHelper_cd0dc6289f5c3405(C.swig_voidp(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_DifferentialEncoding_nrzmDecode_SatHelper_907d18dc11b8d801(C.swig_voidp(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func NewDifferentialEncoding() (_swig_ret DifferentialEncoding) {
 	var swig_r DifferentialEncoding
-	swig_r = (DifferentialEncoding)(SwigcptrDifferentialEncoding(C._wrap_new_DifferentialEncoding_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (DifferentialEncoding)(SwigcptrDifferentialEncoding(C._wrap_new_DifferentialEncoding_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteDifferentialEncoding(arg1 DifferentialEncoding) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_DifferentialEncoding_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_DifferentialEncoding_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type DifferentialEncoding interface {
@@ -1257,7 +1250,7 @@ func NewAGC__SWIG_0(arg1 float32, arg2 float32, arg3 float32, arg4 float32) (_sw
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_0_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3))))
+	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_0_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3))))
 	return swig_r
 }
 
@@ -1266,7 +1259,7 @@ func NewAGC__SWIG_1(arg1 float32, arg2 float32, arg3 float32) (_swig_ret AGC) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_1_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))))
+	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_1_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))))
 	return swig_r
 }
 
@@ -1274,20 +1267,20 @@ func NewAGC__SWIG_2(arg1 float32, arg2 float32) (_swig_ret AGC) {
 	var swig_r AGC
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_2_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.float(_swig_i_1))))
+	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_2_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.float(_swig_i_1))))
 	return swig_r
 }
 
 func NewAGC__SWIG_3(arg1 float32) (_swig_ret AGC) {
 	var swig_r AGC
 	_swig_i_0 := arg1
-	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_3_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0))))
+	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_3_SatHelper_907d18dc11b8d801(C.float(_swig_i_0))))
 	return swig_r
 }
 
 func NewAGC__SWIG_4() (_swig_ret AGC) {
 	var swig_r AGC
-	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_4_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (AGC)(SwigcptrAGC(C._wrap_new_AGC__SWIG_4_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
@@ -1314,60 +1307,60 @@ func NewAGC(a ...interface{}) AGC {
 func (arg1 SwigcptrAGC) GetRate() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_AGC_GetRate_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_AGC_GetRate_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAGC) GetReference() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_AGC_GetReference_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_AGC_GetReference_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAGC) GetGain() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_AGC_GetGain_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_AGC_GetGain_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAGC) GetMaxGain() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_AGC_GetMaxGain_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_AGC_GetMaxGain_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAGC) SetRate(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_AGC_SetRate_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_AGC_SetRate_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrAGC) SetReference(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_AGC_SetReference_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_AGC_SetReference_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrAGC) SetGain(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_AGC_SetGain_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_AGC_SetGain_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrAGC) SetMaxGain(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_AGC_SetMaxGain_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_AGC_SetMaxGain_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrAGC) Scale(arg2 *complex64) (_swig_ret complex64) {
 	var swig_r complex64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (complex64)(C._wrap_AGC_scale_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
+	swig_r = (complex64)(C._wrap_AGC_scale_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
 }
 
@@ -1376,7 +1369,7 @@ func (arg1 SwigcptrAGC) ScaleN(arg2 *complex64, arg3 *complex64, arg4 uint) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_AGC_scaleN_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_AGC_scaleN_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func (arg1 SwigcptrAGC) Work(arg2 *complex64, arg3 *complex64, arg4 int) {
@@ -1384,12 +1377,12 @@ func (arg1 SwigcptrAGC) Work(arg2 *complex64, arg3 *complex64, arg4 int) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_AGC_Work_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_AGC_Work_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func DeleteAGC(arg1 AGC) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_AGC_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_AGC_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type AGC interface {
@@ -1424,13 +1417,13 @@ func NewClockRecovery(arg1 float32, arg2 float32, arg3 float32, arg4 float32, ar
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (ClockRecovery)(SwigcptrClockRecovery(C._wrap_new_ClockRecovery_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))))
+	swig_r = (ClockRecovery)(SwigcptrClockRecovery(C._wrap_new_ClockRecovery_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))))
 	return swig_r
 }
 
 func DeleteClockRecovery(arg1 ClockRecovery) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ClockRecovery_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ClockRecovery_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrClockRecovery) Work(arg2 *complex64, arg3 *complex64, arg4 int) (_swig_ret int) {
@@ -1439,60 +1432,60 @@ func (arg1 SwigcptrClockRecovery) Work(arg2 *complex64, arg3 *complex64, arg4 in
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (int)(C._wrap_ClockRecovery_Work_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (int)(C._wrap_ClockRecovery_Work_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	return swig_r
 }
 
 func (arg1 SwigcptrClockRecovery) GetMu() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ClockRecovery_GetMu_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ClockRecovery_GetMu_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrClockRecovery) GetOmega() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ClockRecovery_GetOmega_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ClockRecovery_GetOmega_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrClockRecovery) GetGainMu() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ClockRecovery_GetGainMu_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ClockRecovery_GetGainMu_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrClockRecovery) GetGainOmega() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ClockRecovery_GetGainOmega_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ClockRecovery_GetGainOmega_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrClockRecovery) SetGainMu(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ClockRecovery_SetGainMu_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ClockRecovery_SetGainMu_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrClockRecovery) SetGainOmega(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ClockRecovery_SetGainOmega_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ClockRecovery_SetGainOmega_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrClockRecovery) SetMu(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ClockRecovery_SetMu_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ClockRecovery_SetMu_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrClockRecovery) SetOmega(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ClockRecovery_SetOmega_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ClockRecovery_SetOmega_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 type ClockRecovery interface {
@@ -1512,7 +1505,6 @@ type ClockRecovery interface {
 const M_TWOPI float64 = 6.28318530717958647692
 const M_ONE_OVER_2PI float64 = 0.15915494309189533577
 const M_MINUS_TWO_PI float64 = -6.28318530717958647692
-
 type SwigcptrControlLoop uintptr
 
 func (p SwigcptrControlLoop) Swigcptr() uintptr {
@@ -1527,143 +1519,143 @@ func NewControlLoop(arg1 float32, arg2 float32, arg3 float32) (_swig_ret Control
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (ControlLoop)(SwigcptrControlLoop(C._wrap_new_ControlLoop_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))))
+	swig_r = (ControlLoop)(SwigcptrControlLoop(C._wrap_new_ControlLoop_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))))
 	return swig_r
 }
 
 func DeleteControlLoop(arg1 ControlLoop) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ControlLoop_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ControlLoop_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrControlLoop) SetLoopBandwidth(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetLoopBandwidth_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetLoopBandwidth_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) SetDampingFactor(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetDampingFactor_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetDampingFactor_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) SetAlpha(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetAlpha_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetAlpha_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) SetBeta(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetBeta_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetBeta_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) SetFrequency(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) Reset() {
 	_swig_i_0 := arg1
-	C._wrap_ControlLoop_Reset_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_ControlLoop_Reset_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrControlLoop) UpdateGains() {
 	_swig_i_0 := arg1
-	C._wrap_ControlLoop_UpdateGains_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_ControlLoop_UpdateGains_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrControlLoop) SetPhase(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetPhase_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetPhase_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) AdvanceLoop(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_AdvanceLoop_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_AdvanceLoop_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) SetRelativeMaxFrequency(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetRelativeMaxFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetRelativeMaxFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) SetRelativeMinFrequency(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ControlLoop_SetRelativeMinFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ControlLoop_SetRelativeMinFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrControlLoop) GetLoopBandwidth() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetLoopBandwidth_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetLoopBandwidth_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) GetDampingFactor() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetDampingFactor_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetDampingFactor_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) GetAlpha() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetAlpha_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetAlpha_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) GetBeta() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetBeta_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetBeta_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) GetRelativeFrequency() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetRelativeFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetRelativeFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) GetPhase() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetPhase_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetPhase_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) GetMaxRelativeFrequency() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetMaxRelativeFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetMaxRelativeFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) GetMinRelativeFrequency() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ControlLoop_GetMinRelativeFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ControlLoop_GetMinRelativeFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrControlLoop) FrequencyLimit() {
 	_swig_i_0 := arg1
-	C._wrap_ControlLoop_FrequencyLimit_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_ControlLoop_FrequencyLimit_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrControlLoop) PhaseWrap() {
 	_swig_i_0 := arg1
-	C._wrap_ControlLoop_PhaseWrap_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_ControlLoop_PhaseWrap_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type ControlLoop interface {
@@ -1705,7 +1697,7 @@ func NewCostasLoop__SWIG_0(arg1 float32, arg2 int) (_swig_ret CostasLoop) {
 	var swig_r CostasLoop
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (CostasLoop)(SwigcptrCostasLoop(C._wrap_new_CostasLoop__SWIG_0_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (CostasLoop)(SwigcptrCostasLoop(C._wrap_new_CostasLoop__SWIG_0_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -1715,7 +1707,7 @@ func NewCostasLoop__SWIG_1(arg1 float32, arg2 int, arg3 float32, arg4 float32) (
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (CostasLoop)(SwigcptrCostasLoop(C._wrap_new_CostasLoop__SWIG_1_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3))))
+	swig_r = (CostasLoop)(SwigcptrCostasLoop(C._wrap_new_CostasLoop__SWIG_1_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3))))
 	return swig_r
 }
 
@@ -1732,33 +1724,33 @@ func NewCostasLoop(a ...interface{}) CostasLoop {
 
 func DeleteCostasLoop(arg1 CostasLoop) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_CostasLoop_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_CostasLoop_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrCostasLoop) GetError() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_CostasLoop_GetError_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetError_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrCostasLoop) GetFrequency() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_CostasLoop_GetFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrCostasLoop) GetFrequencyHz() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_CostasLoop_GetFrequencyHz_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetFrequencyHz_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrCostasLoop) Reset() {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_Reset_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_CostasLoop_Reset_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrCostasLoop) Work__SWIG_0(arg2 *complex64, arg3 *complex64, arg4 int) {
@@ -1766,7 +1758,7 @@ func (arg1 SwigcptrCostasLoop) Work__SWIG_0(arg2 *complex64, arg3 *complex64, ar
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_CostasLoop_Work__SWIG_0_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_CostasLoop_Work__SWIG_0_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func (arg1 SwigcptrCostasLoop) Work__SWIG_1(arg2 *complex64, arg3 *complex64, arg4 *float32, arg5 int) {
@@ -1775,7 +1767,7 @@ func (arg1 SwigcptrCostasLoop) Work__SWIG_1(arg2 *complex64, arg3 *complex64, ar
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_CostasLoop_Work__SWIG_1_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap_CostasLoop_Work__SWIG_1_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 func (p SwigcptrCostasLoop) Work(a ...interface{}) {
@@ -1793,107 +1785,107 @@ func (p SwigcptrCostasLoop) Work(a ...interface{}) {
 
 func (_swig_base SwigcptrCostasLoop) SetLoopBandwidth(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetLoopBandwidth_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetLoopBandwidth_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) SetDampingFactor(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetDampingFactor_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetDampingFactor_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) SetAlpha(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetAlpha_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetAlpha_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) SetBeta(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetBeta_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetBeta_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) SetFrequency(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) UpdateGains() {
-	C._wrap_CostasLoop_UpdateGains_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base))
+	C._wrap_CostasLoop_UpdateGains_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrCostasLoop) SetPhase(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetPhase_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetPhase_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) AdvanceLoop(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_AdvanceLoop_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_AdvanceLoop_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) SetRelativeMaxFrequency(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetRelativeMaxFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetRelativeMaxFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) SetRelativeMinFrequency(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_CostasLoop_SetRelativeMinFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base), C.float(_swig_i_0))
+	C._wrap_CostasLoop_SetRelativeMinFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base), C.float(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCostasLoop) GetLoopBandwidth() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetLoopBandwidth_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetLoopBandwidth_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) GetDampingFactor() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetDampingFactor_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetDampingFactor_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) GetAlpha() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetAlpha_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetAlpha_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) GetBeta() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetBeta_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetBeta_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) GetRelativeFrequency() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetRelativeFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetRelativeFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) GetPhase() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetPhase_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetPhase_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) GetMaxRelativeFrequency() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetMaxRelativeFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetMaxRelativeFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) GetMinRelativeFrequency() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_CostasLoop_GetMinRelativeFrequency_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base)))
+	swig_r = (float32)(C._wrap_CostasLoop_GetMinRelativeFrequency_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCostasLoop) FrequencyLimit() {
-	C._wrap_CostasLoop_FrequencyLimit_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base))
+	C._wrap_CostasLoop_FrequencyLimit_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrCostasLoop) PhaseWrap() {
-	C._wrap_CostasLoop_PhaseWrap_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_base))
+	C._wrap_CostasLoop_PhaseWrap_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrCostasLoop) SwigIsControlLoop() {
@@ -1945,96 +1937,87 @@ func (p SwigcptrFFTWindows) SwigIsFFTWindows() {
 }
 
 type SatHelperFFTWindowsWindowType int
-
 func _swig_getFFTWindows_HAMMING_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_HAMMING_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_HAMMING_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsHAMMING SatHelperFFTWindowsWindowType = _swig_getFFTWindows_HAMMING_FFTWindows()
-
 func _swig_getFFTWindows_HANN_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_HANN_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_HANN_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsHANN SatHelperFFTWindowsWindowType = _swig_getFFTWindows_HANN_FFTWindows()
-
 func _swig_getFFTWindows_BLACKMAN_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BLACKMAN_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BLACKMAN_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsBLACKMAN SatHelperFFTWindowsWindowType = _swig_getFFTWindows_BLACKMAN_FFTWindows()
-
 func _swig_getFFTWindows_RECTANGULAR_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_RECTANGULAR_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_RECTANGULAR_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsRECTANGULAR SatHelperFFTWindowsWindowType = _swig_getFFTWindows_RECTANGULAR_FFTWindows()
-
 func _swig_getFFTWindows_KAISER_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_KAISER_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_KAISER_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsKAISER SatHelperFFTWindowsWindowType = _swig_getFFTWindows_KAISER_FFTWindows()
-
 func _swig_getFFTWindows_BLACKMAN_HARRIS_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BLACKMAN_HARRIS_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BLACKMAN_HARRIS_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsBLACKMAN_HARRIS SatHelperFFTWindowsWindowType = _swig_getFFTWindows_BLACKMAN_HARRIS_FFTWindows()
-
 func _swig_getFFTWindows_BARTLETT_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BARTLETT_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_BARTLETT_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsBARTLETT SatHelperFFTWindowsWindowType = _swig_getFFTWindows_BARTLETT_FFTWindows()
-
 func _swig_getFFTWindows_FLATTOP_FFTWindows() (_swig_ret SatHelperFFTWindowsWindowType) {
 	var swig_r SatHelperFFTWindowsWindowType
-	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_FLATTOP_FFTWindows_SatHelper_cd0dc6289f5c3405())
+	swig_r = (SatHelperFFTWindowsWindowType)(C._wrap_FLATTOP_FFTWindows_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 var FFTWindowsFLATTOP SatHelperFFTWindowsWindowType = _swig_getFFTWindows_FLATTOP_FFTWindows()
-
 func FFTWindowsRectangular(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Rectangular_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Rectangular_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func FFTWindowsHamming(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Hamming_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Hamming_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func FFTWindowsHanning(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Hanning_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Hanning_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func FFTWindowsBlackman(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Blackman_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Blackman_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
@@ -2042,14 +2025,14 @@ func FFTWindowsBlackmanHarris__SWIG_0(arg1 int, arg2 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_BlackmanHarris__SWIG_0_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_BlackmanHarris__SWIG_0_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func FFTWindowsBlackmanHarris__SWIG_1(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_BlackmanHarris__SWIG_1_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_BlackmanHarris__SWIG_1_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
@@ -2067,7 +2050,7 @@ func FFTWindowsBlackmanHarris(a ...interface{}) VecFloat {
 func FFTWindowsFlatTop(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_FlatTop_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_FlatTop_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
@@ -2075,14 +2058,14 @@ func FFTWindowsKaiser(arg1 int, arg2 float64) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Kaiser_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0), C.double(_swig_i_1))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Kaiser_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0), C.double(_swig_i_1))))
 	return swig_r
 }
 
 func FFTWindowsBartlett(arg1 int) (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Bartlett_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_Bartlett_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
@@ -2091,19 +2074,19 @@ func FFTWindowsMakeWindow(arg1 SatHelperFFTWindowsWindowType, arg2 int, arg3 flo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_MakeWindow_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FFTWindows_MakeWindow_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))))
 	return swig_r
 }
 
 func NewFFTWindows() (_swig_ret FFTWindows) {
 	var swig_r FFTWindows
-	swig_r = (FFTWindows)(SwigcptrFFTWindows(C._wrap_new_FFTWindows_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (FFTWindows)(SwigcptrFFTWindows(C._wrap_new_FFTWindows_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteFFTWindows(arg1 FFTWindows) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_FFTWindows_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_FFTWindows_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type FFTWindows interface {
@@ -2127,7 +2110,7 @@ func FiltersRRC(arg1 float64, arg2 float64, arg3 float64, arg4 float64, arg5 int
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_Filters_RRC_SatHelper_cd0dc6289f5c3405(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), C.swig_intgo(_swig_i_4))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_Filters_RRC_SatHelper_907d18dc11b8d801(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), C.swig_intgo(_swig_i_4))))
 	return swig_r
 }
 
@@ -2139,19 +2122,19 @@ func FiltersLowPass(arg1 float64, arg2 float64, arg3 float64, arg4 float64, arg5
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_Filters_lowPass_SatHelper_cd0dc6289f5c3405(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), C.swig_intgo(_swig_i_4), C.double(_swig_i_5))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_Filters_lowPass_SatHelper_907d18dc11b8d801(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3), C.swig_intgo(_swig_i_4), C.double(_swig_i_5))))
 	return swig_r
 }
 
 func NewFilters() (_swig_ret Filters) {
 	var swig_r Filters
-	swig_r = (Filters)(SwigcptrFilters(C._wrap_new_Filters_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (Filters)(SwigcptrFilters(C._wrap_new_Filters_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteFilters(arg1 Filters) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Filters_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Filters_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type Filters interface {
@@ -2172,13 +2155,13 @@ func NewFirFilter(arg1 uint, arg2 VecFloat) (_swig_ret FirFilter) {
 	var swig_r FirFilter
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (FirFilter)(SwigcptrFirFilter(C._wrap_new_FirFilter_SatHelper_cd0dc6289f5c3405(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (FirFilter)(SwigcptrFirFilter(C._wrap_new_FirFilter_SatHelper_907d18dc11b8d801(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func DeleteFirFilter(arg1 FirFilter) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_FirFilter_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_FirFilter_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrFirFilter) Work(arg2 *complex64, arg3 *complex64, arg4 int) (_swig_ret int) {
@@ -2187,7 +2170,7 @@ func (arg1 SwigcptrFirFilter) Work(arg2 *complex64, arg3 *complex64, arg4 int) (
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (int)(C._wrap_FirFilter_Work_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (int)(C._wrap_FirFilter_Work_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	return swig_r
 }
 
@@ -2208,26 +2191,26 @@ func (p SwigcptrMMSEFirInterpolator) SwigIsMMSEFirInterpolator() {
 
 func NewMMSEFirInterpolator() (_swig_ret MMSEFirInterpolator) {
 	var swig_r MMSEFirInterpolator
-	swig_r = (MMSEFirInterpolator)(SwigcptrMMSEFirInterpolator(C._wrap_new_MMSEFirInterpolator_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (MMSEFirInterpolator)(SwigcptrMMSEFirInterpolator(C._wrap_new_MMSEFirInterpolator_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteMMSEFirInterpolator(arg1 MMSEFirInterpolator) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_MMSEFirInterpolator_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_MMSEFirInterpolator_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrMMSEFirInterpolator) GetNTaps() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_MMSEFirInterpolator_GetNTaps_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_MMSEFirInterpolator_GetNTaps_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMMSEFirInterpolator) GetNSteps() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_MMSEFirInterpolator_GetNSteps_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_MMSEFirInterpolator_GetNSteps_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -2236,7 +2219,7 @@ func (arg1 SwigcptrMMSEFirInterpolator) Interpolate(arg2 *complex64, arg3 float3
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (complex64)(C._wrap_MMSEFirInterpolator_interpolate_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.float(_swig_i_2)))
+	swig_r = (complex64)(C._wrap_MMSEFirInterpolator_interpolate_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.float(_swig_i_2)))
 	return swig_r
 }
 
@@ -2260,26 +2243,26 @@ func (p SwigcptrFirKernel) SwigIsFirKernel() {
 func NewFirKernel(arg1 VecFloat) (_swig_ret FirKernel) {
 	var swig_r FirKernel
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (FirKernel)(SwigcptrFirKernel(C._wrap_new_FirKernel_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))))
+	swig_r = (FirKernel)(SwigcptrFirKernel(C._wrap_new_FirKernel_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteFirKernel(arg1 FirKernel) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_FirKernel_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_FirKernel_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrFirKernel) SetTaps(arg2 VecFloat) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_FirKernel_SetTaps_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_FirKernel_SetTaps_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrFirKernel) Filter(arg2 *complex64) (_swig_ret complex64) {
 	var swig_r complex64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (complex64)(C._wrap_FirKernel_filter_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
+	swig_r = (complex64)(C._wrap_FirKernel_filter_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1)))
 	return swig_r
 }
 
@@ -2288,7 +2271,7 @@ func (arg1 SwigcptrFirKernel) FilterData(arg2 *complex64, arg3 *complex64, arg4 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_FirKernel_filterData_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_18(_swig_i_3))
+	C._wrap_FirKernel_filterData_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_18(_swig_i_3))
 }
 
 func (arg1 SwigcptrFirKernel) FilterDecimating(arg2 *complex64, arg3 *complex64, arg4 uint64, arg5 uint) {
@@ -2297,27 +2280,27 @@ func (arg1 SwigcptrFirKernel) FilterDecimating(arg2 *complex64, arg3 *complex64,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_FirKernel_FilterDecimating_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_19(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap_FirKernel_FilterDecimating_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_type_19(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 func (arg1 SwigcptrFirKernel) UpdateTap(arg2 float32, arg3 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_FirKernel_UpdateTap_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_FirKernel_UpdateTap_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func (arg1 SwigcptrFirKernel) GetTaps() (_swig_ret VecFloat) {
 	var swig_r VecFloat
 	_swig_i_0 := arg1
-	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FirKernel_GetTaps_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))))
+	swig_r = (VecFloat)(SwigcptrVecFloat(C._wrap_FirKernel_GetTaps_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrFirKernel) GetNTaps() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_FirKernel_GetNTaps_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_FirKernel_GetNTaps_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -2344,49 +2327,49 @@ func (p SwigcptrInfo) SwigIsInfo() {
 
 func InfoGetVersion() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_Info_GetVersion_SatHelper_cd0dc6289f5c3405()
+	swig_r_p := C._wrap_Info_GetVersion_SatHelper_907d18dc11b8d801()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
-	swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func InfoGetCompilationDate() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_Info_GetCompilationDate_SatHelper_cd0dc6289f5c3405()
+	swig_r_p := C._wrap_Info_GetCompilationDate_SatHelper_907d18dc11b8d801()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
-	swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func InfoGetCompilationTime() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_Info_GetCompilationTime_SatHelper_cd0dc6289f5c3405()
+	swig_r_p := C._wrap_Info_GetCompilationTime_SatHelper_907d18dc11b8d801()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
-	swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func InfoGetGitSHA1() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_Info_GetGitSHA1_SatHelper_cd0dc6289f5c3405()
+	swig_r_p := C._wrap_Info_GetGitSHA1_SatHelper_907d18dc11b8d801()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
-	swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func NewInfo() (_swig_ret Info) {
 	var swig_r Info
-	swig_r = (Info)(SwigcptrInfo(C._wrap_new_Info_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (Info)(SwigcptrInfo(C._wrap_new_Info_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteInfo(arg1 Info) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Info_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Info_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type Info interface {
@@ -2405,56 +2388,56 @@ func (p SwigcptrExtensions) SwigIsExtensions() {
 
 func SetExtensionsHasFMA(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_Extensions_hasFMA_set_SatHelper_cd0dc6289f5c3405(C._Bool(_swig_i_0))
+	C._wrap_Extensions_hasFMA_set_SatHelper_907d18dc11b8d801(C._Bool(_swig_i_0))
 }
 
 func GetExtensionsHasFMA() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_Extensions_hasFMA_get_SatHelper_cd0dc6289f5c3405())
+	swig_r = (bool)(C._wrap_Extensions_hasFMA_get_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 func SetExtensionsHasSSE(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_Extensions_hasSSE_set_SatHelper_cd0dc6289f5c3405(C._Bool(_swig_i_0))
+	C._wrap_Extensions_hasSSE_set_SatHelper_907d18dc11b8d801(C._Bool(_swig_i_0))
 }
 
 func GetExtensionsHasSSE() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_Extensions_hasSSE_get_SatHelper_cd0dc6289f5c3405())
+	swig_r = (bool)(C._wrap_Extensions_hasSSE_get_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 func SetExtensionsHasSSE4(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_Extensions_hasSSE4_set_SatHelper_cd0dc6289f5c3405(C._Bool(_swig_i_0))
+	C._wrap_Extensions_hasSSE4_set_SatHelper_907d18dc11b8d801(C._Bool(_swig_i_0))
 }
 
 func GetExtensionsHasSSE4() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_Extensions_hasSSE4_get_SatHelper_cd0dc6289f5c3405())
+	swig_r = (bool)(C._wrap_Extensions_hasSSE4_get_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 func SetExtensionsHasAVX(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_Extensions_hasAVX_set_SatHelper_cd0dc6289f5c3405(C._Bool(_swig_i_0))
+	C._wrap_Extensions_hasAVX_set_SatHelper_907d18dc11b8d801(C._Bool(_swig_i_0))
 }
 
 func GetExtensionsHasAVX() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_Extensions_hasAVX_get_SatHelper_cd0dc6289f5c3405())
+	swig_r = (bool)(C._wrap_Extensions_hasAVX_get_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
 func SetExtensionsInitialized(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_Extensions_initialized_set_SatHelper_cd0dc6289f5c3405(C._Bool(_swig_i_0))
+	C._wrap_Extensions_initialized_set_SatHelper_907d18dc11b8d801(C._Bool(_swig_i_0))
 }
 
 func GetExtensionsInitialized() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_Extensions_initialized_get_SatHelper_cd0dc6289f5c3405())
+	swig_r = (bool)(C._wrap_Extensions_initialized_get_SatHelper_907d18dc11b8d801())
 	return swig_r
 }
 
@@ -2463,19 +2446,19 @@ func ExtensionsFMA(arg1 float32, arg2 float32, arg3 float32) (_swig_ret float32)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (float32)(C._wrap_Extensions_FMA_SatHelper_cd0dc6289f5c3405(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
+	swig_r = (float32)(C._wrap_Extensions_FMA_SatHelper_907d18dc11b8d801(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
 	return swig_r
 }
 
 func NewExtensions() (_swig_ret Extensions) {
 	var swig_r Extensions
-	swig_r = (Extensions)(SwigcptrExtensions(C._wrap_new_Extensions_SatHelper_cd0dc6289f5c3405()))
+	swig_r = (Extensions)(SwigcptrExtensions(C._wrap_new_Extensions_SatHelper_907d18dc11b8d801()))
 	return swig_r
 }
 
 func DeleteExtensions(arg1 Extensions) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Extensions_SatHelper_cd0dc6289f5c3405(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Extensions_SatHelper_907d18dc11b8d801(C.uintptr_t(_swig_i_0))
 }
 
 type Extensions interface {
@@ -2483,11 +2466,12 @@ type Extensions interface {
 	SwigIsExtensions()
 }
 
+
 type SwigcptrIn_addr uintptr
 type In_addr interface {
-	Swigcptr() uintptr
+	Swigcptr() uintptr;
 }
-
 func (p SwigcptrIn_addr) Swigcptr() uintptr {
 	return uintptr(p)
 }
+
