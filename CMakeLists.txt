@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-project (sathelper)
+project (SatHelper)
 enable_language(CXX)
 
 include(CheckLibraryExists)
